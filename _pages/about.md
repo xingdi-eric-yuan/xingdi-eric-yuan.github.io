@@ -20,8 +20,8 @@ Education
 
 Work experience
 ======
-* 2015.10 - 2017-02: Maluuba (acquired by Microsoft)
-* 2017.02 - present: Microsoft Research, Montréal
+* 2015.10 - 2017-02: [Maluuba](https://en.wikipedia.org/wiki/Maluuba)
+* 2017.02 - present: [Microsoft Research, Montréal](https://www.microsoft.com/en-us/research/lab/microsoft-research-montreal/)
 
 Service
 ======
