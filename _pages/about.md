@@ -11,7 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
-* New workshop accepted: Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan.
+* Workshop accepted: Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
 
 Education
 ======
