@@ -25,7 +25,7 @@ Work experience
 
 Service
 ======
-* Reviewier: ACL, EMNLP, NAACL, ICML, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
+* Reviewier: ACL, EMNLP, NAACL, ICML, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
 * Organizer: 
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan.
 
