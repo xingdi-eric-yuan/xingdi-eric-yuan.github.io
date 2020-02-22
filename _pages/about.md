@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am interested in Deep Learning and its applications. I have focused on designing and implementing deep neural models on language, vision tasks and game environments. Specifically, I have worked on a diverse set of models and methods that help machines to read, comprehend, and gather information from both static and interactive knowledge sources. I am also interested in finding ways to harvest commonsense and procedural knowledge from language environments and use them to help machines to do reasoning. Other than above, I am interested in deep generative models, specifically methods that helps Natural Language Generation models to generate diverse and sense-making outputs.
+I am interested in Deep Learning and its applications. I have focused on designing and implementing deep neural models on language, vision tasks and game environments. Specifically, I have worked on a diverse set of models and methods that **help machines to read, comprehend, and gather information** from both static and interactive knowledge sources. I am also interested in finding ways to harvest **commonsense and procedural knowledge** from language environments and use them to help machines to do reasoning. Other than above, I am interested in deep generative models, specifically methods that helps **Natural Language Generation** models to generate diverse and sense-making outputs.
 
 News
 ======
@@ -21,11 +21,11 @@ Education
 Work experience
 ======
 * 2015.10 - 2017-02: Maluuba (acquired by Microsoft)
-* 2017.02 - current: Microsoft Research, Montreal
+* 2017.02 - current: Microsoft Research, Montréal
 
 Service
 ======
-* Reviewier: ACL, EMNLP, NAACL, ICML, MAIS.
+* Reviewier: ACL, EMNLP, NAACL, ICML, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
 * Organizer: 
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan.
 
@@ -50,3 +50,7 @@ Selected publications
 * **NewsQA: a Machine Comprehension Dataset.** A. Trischler*, T. Wang*, X. Yuan*, J. Harris, A. Sordoni, P. Bachman, K. Suleman. In RepL4NLP Workshop, ACL, 2017.[ArXiv](https://arxiv.org/abs/1611.09830)
 * **Natural Language Comprehension with the Epireader.** A. Trischler, Z. Ye, X. Yuan, P. Bachman, A. Sordoni, K. Suleman. In EMNLP, 2016.[ArXiv](https://arxiv.org/abs/1606.02270)
 <!-- * A Parallel- Hierarchical Model for Machine Comprehension on Sparse Data. A. Trischler*, Zheng Ye*, X. Yuan, Jing He, Philip Bachman, and Kaheer Suleman. In ACL, 2016. -->
+
+Fun stuff
+=====
+* I developed asciiko (アス子), a deep ascii art generator. Check the [YouTube video](https://www.youtube.com/watch?v=_pJyuo-ivR4) or the [open-sourced code](https://github.com/xingdi-eric-yuan/asciiko).
