@@ -11,8 +11,8 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
-* Interactive Machine Comprehension with Information Seeking Agents. X. Yuan\*, J. Fu\*, M-A. Côté, Y. Tay, C. Pal, A. Trischler. ArXiv, 2019. [ArXiv](https://arxiv.org/abs/1908.10449) is accepted to ACL 2020. We will update the camera ready soon on ArXiv.
-* One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases. X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. ArXiv, 2018. [ArXiv](https://arxiv.org/abs/1810.05241) is accepted to ACL 2020. We will update the camera ready soon on ArXiv.
+* Interactive Machine Comprehension with Information Seeking Agents. X. Yuan\*, J. Fu\*, M-A. Côté, Y. Tay, C. Pal, A. Trischler. [ArXiv](https://arxiv.org/abs/1908.10449) is accepted to ACL 2020. We will update the camera ready soon on ArXiv.
+* One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases. X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. [ArXiv](https://arxiv.org/abs/1810.05241) is accepted to ACL 2020. We will update the camera ready soon on ArXiv.
 * Workshop accepted: Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
 
 Education
