@@ -36,13 +36,13 @@ Selected publications
 * **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M-A. Côté\*, M. Zelinka, M-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. ArXiv, 2020. [ArXiv](https://arxiv.org/abs/2002.09127/)
 * **Interactive Fiction Games: A Colossal Adventure.** M. Hausknecht, P. Ammanabrolu, M-A. Côté, X. Yuan. In AAAI, 2020. [ArXiv](https://arxiv.org/abs/1909.05398)
 <!-- * Building Dynamic Knowledge Graphs from Text-based Games. M. Zelinka*, X. Yuan*, M-A. Côté*, R. Laroche, A. Trischler. In Graph Representation Learning Workshop, NeurIPS, 2019. -->
-* **Interactive Machine Comprehension with Information Seeking Agents.** X. Yuan\*, J. Fu\*, M-A. Côté, Y. Tay, C. Pal, A. Trischler. ArXiv, 2019. [ArXiv](https://arxiv.org/abs/1908.10449)
+* **Interactive Machine Comprehension with Information Seeking Agents.** X. Yuan\*, J. Fu\*, M-A. Côté, Y. Tay, C. Pal, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1908.10449)
 * **Interactive Language Learning by Question Answering.** X. Yuan\*, M-A. Côté\*, J. Fu, Z. Lin, C. Pal, Y. Bengio, A. Trischler. In EMNLP, 2019. [ArXiv](https://arxiv.org/abs/1908.10909)
 <!-- * Does Order Matter? An Empirical Study on Generating Multiple Keyphrases as a Sequence. R. Meng, XIngdi Yuan, T. Wang, Peter Brusilovsky, A. Trischler, Daqing He. ArXiv, 2019. -->
 <!-- * Simple and Effective Curriculum Pointer-Generator Networks for Reading Comprehension over Long Narratives. Y. Tay, Shuohang Wang, Luu Anh Tuan, J. Fu, Minh C Phan, X. Yuan, Jinfeng Rao, Siu Cheung Hui, Aston Zhang. In ACL, 2019. -->
 * **Building Dynamic Knowledge Graphs from Text using Machine Reading Comprehension.** R. Das, T. Munkhdalai, X. Yuan, A. Trischler, A. McCallum. In ICLR, 2019. [ArXiv](https://arxiv.org/abs/1810.05682)
 <!-- * Towards Solving Text-based Games by Producing Adaptive Action Spaces. Ruo Yu Tao, M-A. Côté, X. Yuan, Layla El Asri. In Wordplay: Reinforcement and Language Learning in Text-based Games Workshop, NeurIPS, 2018. -->
-* **One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases.** X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. ArXiv, 2018. [ArXiv](https://arxiv.org/abs/1810.05241)
+* **One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases.** X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1810.05241)
 <!-- * Counting to Explore and Generalize in Text-based Games. X. Yuan*, M-A. Côté*, A. Sordoni, R. Laroche, Remi Tachet des Combes, M. Hausknecht, A. Trischler. In European Workshop on Reinforcement Learning (EWRL), 2018. -->
 * **TextWorld: A Learning Environment for Text-based Games.** M-A. Côté, Á. Kádár, X. Yuan, B. Kybartas, T. Barnes, E. Fine, J. Moore, M. Hausknecht, L. El Asri, M. Adada, W. Tay, A. Trischler. In Computer Games Workshop, ICML/IJCAI, 2018. [ArXiv](https://arxiv.org/abs/1806.11532)
 <!-- * Rapid Adaptation with Conditionally Shifted Neurons. T. Munkhdalai, X. Yuan, Soroush Mehri, A. Trischler. In ICML, 2018. -->
