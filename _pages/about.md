@@ -11,9 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
-* Interactive Machine Comprehension with Information Seeking Agents. X. Yuan\*, J. Fu\*, M-A. Côté, Y. Tay, C. Pal, A. Trischler. [ArXiv](https://arxiv.org/abs/1908.10449) is accepted to ACL 2020. 
-* One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases. X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. [ArXiv](https://arxiv.org/abs/1810.05241) is accepted to ACL 2020. 
-* Workshop accepted: Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
+* Workshop accepted: Wordplay: When Language Meets Games Workshop at NeurIPS 2020. [Website](https://wordplay-workshop.github.io/)
 
 Education
 ======
@@ -29,7 +27,8 @@ Service
 ======
 * Reviewier: ACL, EMNLP, NAACL, ICML, NeurIPS, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
 * Organizer: 
-  * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan.
+  * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
+  * Wordplay: When Language Meets Games Workshop at NeurIPS 2020. [Website](https://wordplay-workshop.github.io/)
 
 Selected publications
 ======
