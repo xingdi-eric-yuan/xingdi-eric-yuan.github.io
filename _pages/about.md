@@ -25,7 +25,7 @@ Work experience
 
 Service
 ======
-* Reviewier: ACL, EMNLP, NAACL, ICML, NeurIPS, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
+* Reviewer: ACL, EMNLP, NAACL, ICML, NeurIPS, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
 * Organizer: 
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
   * Wordplay: When Language Meets Games Workshop at NeurIPS 2020. [Website](https://wordplay-workshop.github.io/)
