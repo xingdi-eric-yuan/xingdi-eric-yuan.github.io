@@ -11,6 +11,8 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
+* Paper accepted at NeurIPS 2020: **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M-A. Côté\*, M. Zelinka, M-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. [ArXiv](https://arxiv.org/abs/2002.09127/)
+* Paper accepted at NeurIPS 2020: **Graph Policy Network for Transferable Active Learning on Graphs.** S. Hu, Z. Xiong, M. Qu, X. Yuan, M-A. Côté, Z. Liu, J. Tang. [ArXiv](https://arxiv.org/abs/2002.09127/)
 * Workshop accepted: Wordplay: When Language Meets Games Workshop at NeurIPS 2020. [Website](https://wordplay-workshop.github.io/)
 
 Education
@@ -32,7 +34,7 @@ Service
 
 Selected publications
 ======
-* **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M-A. Côté\*, M. Zelinka, M-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. ArXiv, 2020. [ArXiv](https://arxiv.org/abs/2002.09127/)
+* **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M-A. Côté\*, M. Zelinka, M-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. NeurIPS 2020. [ArXiv](https://arxiv.org/abs/2002.09127/)
 * **Interactive Fiction Games: A Colossal Adventure.** M. Hausknecht, P. Ammanabrolu, M-A. Côté, X. Yuan. In AAAI, 2020. [ArXiv](https://arxiv.org/abs/1909.05398)
 <!-- * Building Dynamic Knowledge Graphs from Text-based Games. M. Zelinka*, X. Yuan*, M-A. Côté*, R. Laroche, A. Trischler. In Graph Representation Learning Workshop, NeurIPS, 2019. -->
 * **Interactive Machine Comprehension with Information Seeking Agents.** X. Yuan\*, J. Fu\*, M-A. Côté, Y. Tay, C. Pal, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1908.10449)
