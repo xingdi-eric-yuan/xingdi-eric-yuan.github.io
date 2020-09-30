@@ -12,7 +12,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 News
 ======
 * Paper accepted at NeurIPS 2020: **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M-A. Côté\*, M. Zelinka, M-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. [ArXiv](https://arxiv.org/abs/2002.09127/)
-* Paper accepted at NeurIPS 2020: **Graph Policy Network for Transferable Active Learning on Graphs.** S. Hu, Z. Xiong, M. Qu, X. Yuan, M-A. Côté, Z. Liu, J. Tang. [ArXiv](https://arxiv.org/abs/2002.09127/)
+* Paper accepted at NeurIPS 2020: **Graph Policy Network for Transferable Active Learning on Graphs.** S. Hu, Z. Xiong, M. Qu, X. Yuan, M-A. Côté, Z. Liu, J. Tang. [ArXiv](https://arxiv.org/abs/2006.13463/)
 * Workshop accepted: Wordplay: When Language Meets Games Workshop at NeurIPS 2020. [Website](https://wordplay-workshop.github.io/)
 
 Education
