@@ -33,6 +33,7 @@ Service
 
 Selected publications
 ======
+* **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** M. Shridhar, X. Yuan, M.-A. Cote, Y. Bisk, A. Trischler, M Hausknecht. ICLR 2021. [ArXiv](https://arxiv.org/abs/2010.03768)
 * **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M-A. Côté\*, M. Zelinka, M-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. NeurIPS 2020. [ArXiv](https://arxiv.org/abs/2002.09127/)
 * **Interactive Fiction Games: A Colossal Adventure.** M. Hausknecht, P. Ammanabrolu, M-A. Côté, X. Yuan. In AAAI, 2020. [ArXiv](https://arxiv.org/abs/1909.05398)
 <!-- * Building Dynamic Knowledge Graphs from Text-based Games. M. Zelinka*, X. Yuan*, M-A. Côté*, R. Laroche, A. Trischler. In Graph Representation Learning Workshop, NeurIPS, 2019. -->
