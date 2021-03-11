@@ -11,6 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
+* Paper accepted at NAACL 2021 **An Empirical Study on Neural Keyphrase Generation** R. Meng, X. Yuan, T. Wang, S. Zhao, A. Trischler, D. He. [ArXiv](https://arxiv.org/abs/2009.10229)
 * Paper accepted at ICLR 2021: **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** M. Shridhar, X. Yuan, M.-A. Cote, Y. Bisk, A. Trischler, M Hausknecht. [ArXiv](https://arxiv.org/abs/2010.03768)
 * I have been nominated as an outstanding reviewer at EMNLP 2020! (But you can find my name in the list of outstanding ACs :p [EMNLP 2020 Proceedings](https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf))
 
