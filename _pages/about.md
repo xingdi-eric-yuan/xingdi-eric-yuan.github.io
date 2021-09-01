@@ -34,6 +34,7 @@ Service
 
 Selected publications
 ======
+** Interactive Learning via Language:
 * **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** M. Shridhar, X. Yuan, M.-A. Cote, Y. Bisk, A. Trischler, M Hausknecht. ICLR 2021. [ArXiv](https://arxiv.org/abs/2010.03768)
 * **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M-A. Côté\*, M. Zelinka, M-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. NeurIPS 2020. [ArXiv](https://arxiv.org/abs/2002.09127/)
 * **Interactive Fiction Games: A Colossal Adventure.** M. Hausknecht, P. Ammanabrolu, M-A. Côté, X. Yuan. In AAAI, 2020. [ArXiv](https://arxiv.org/abs/1909.05398)
@@ -42,6 +43,8 @@ Selected publications
 * **Interactive Language Learning by Question Answering.** X. Yuan\*, M-A. Côté\*, J. Fu, Z. Lin, C. Pal, Y. Bengio, A. Trischler. In EMNLP, 2019. [ArXiv](https://arxiv.org/abs/1908.10909)
 <!-- * Does Order Matter? An Empirical Study on Generating Multiple Keyphrases as a Sequence. R. Meng, XIngdi Yuan, T. Wang, Peter Brusilovsky, A. Trischler, Daqing He. ArXiv, 2019. -->
 <!-- * Simple and Effective Curriculum Pointer-Generator Networks for Reading Comprehension over Long Narratives. Y. Tay, Shuohang Wang, Luu Anh Tuan, J. Fu, Minh C Phan, X. Yuan, Jinfeng Rao, Siu Cheung Hui, Aston Zhang. In ACL, 2019. -->
+
+** Interactive Learning via Language:
 * **Building Dynamic Knowledge Graphs from Text using Machine Reading Comprehension.** R. Das, T. Munkhdalai, X. Yuan, A. Trischler, A. McCallum. In ICLR, 2019. [ArXiv](https://arxiv.org/abs/1810.05682)
 <!-- * Towards Solving Text-based Games by Producing Adaptive Action Spaces. Ruo Yu Tao, M-A. Côté, X. Yuan, Layla El Asri. In Wordplay: Reinforcement and Language Learning in Text-based Games Workshop, NeurIPS, 2018. -->
 * **One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases.** X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1810.05241)
