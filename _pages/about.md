@@ -11,6 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
+* I am a NeurIPS 2021 Outstanding Reviewer!
 * Paper accepted at EMNLP 2021: **Interactive Machine Comprehension with Dynamic Knowledge Graphs.** X. Yuan. [ArXiv](https://arxiv.org/abs/2109.00077)
 
 Education
