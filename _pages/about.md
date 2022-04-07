@@ -11,7 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
-* I am officially a Researcher now (senior research engineer --> senior researcher)!
+
 
 Education
 ======
