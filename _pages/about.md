@@ -11,7 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
-
+* I am among the Highlighted Reviewers at ICLR 2022!
 
 Education
 ======
@@ -26,6 +26,7 @@ Work experience
 Service
 ======
 * Reviewer: ACL, EMNLP, NAACL, ICML, NeurIPS, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
+* Outstanding/Highlighted Reviewer: EMNLP 2020, NeurIPS 2021, ICLR 2022.
 * Organizer: 
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
   * Wordplay: When Language Meets Games Workshop at NeurIPS 2020. [Website](https://wordplay-workshop.github.io/)
