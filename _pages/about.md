@@ -11,6 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
+* New paper accepted: **Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language.** I.-J. Liu\*, X. Yuan\*, M.-A. Côté\*, P.-Y. Oudeyer, and A. Schwin. In ICML 2022. [ArXiv](https://arxiv.org/abs/2205.06111)
 * I am among the Highlighted Reviewers at ICLR 2022!
 
 Education
@@ -35,12 +36,12 @@ Selected publications
 ======
 * Info Seeking and Interactive Learning via Language:
   * **Interactive Machine Comprehension with Dynamic Knowledge Graphs.** X. Yuan. In EMNLP 2021. [ArXiv](https://arxiv.org/abs/2109.00077)
-  * **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** M. Shridhar, X. Yuan, M.-A. Cote, Y. Bisk, A. Trischler, M Hausknecht. ICLR 2021. [ArXiv](https://arxiv.org/abs/2010.03768)
-  * **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M-A. Côté\*, M. Zelinka, M-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. NeurIPS 2020. [ArXiv](https://arxiv.org/abs/2002.09127/)
-  * **Interactive Fiction Games: A Colossal Adventure.** M. Hausknecht, P. Ammanabrolu, M-A. Côté, X. Yuan. In AAAI, 2020. [ArXiv](https://arxiv.org/abs/1909.05398)
-  * **Interactive Machine Comprehension with Information Seeking Agents.** X. Yuan\*, J. Fu\*, M-A. Côté, Y. Tay, C. Pal, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1908.10449)
-  * **Interactive Language Learning by Question Answering.** X. Yuan\*, M-A. Côté\*, J. Fu, Z. Lin, C. Pal, Y. Bengio, A. Trischler. In EMNLP, 2019. [ArXiv](https://arxiv.org/abs/1908.10909)
-  * **TextWorld: A Learning Environment for Text-based Games.** M-A. Côté, Á. Kádár, X. Yuan, B. Kybartas, T. Barnes, E. Fine, J. Moore, M. Hausknecht, L. El Asri, M. Adada, W. Tay, A. Trischler. In Computer Games Workshop, ICML/IJCAI, 2018. [ArXiv](https://arxiv.org/abs/1806.11532)
+  * **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** M. Shridhar, X. Yuan, M.-A. Côté, Y. Bisk, A. Trischler, M Hausknecht. ICLR 2021. [ArXiv](https://arxiv.org/abs/2010.03768)
+  * **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M.-A. Côté\*, M. Zelinka, M.-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. NeurIPS 2020. [ArXiv](https://arxiv.org/abs/2002.09127/)
+  * **Interactive Fiction Games: A Colossal Adventure.** M. Hausknecht, P. Ammanabrolu, M.-A. Côté, X. Yuan. In AAAI, 2020. [ArXiv](https://arxiv.org/abs/1909.05398)
+  * **Interactive Machine Comprehension with Information Seeking Agents.** X. Yuan\*, J. Fu\*, M.-A. Côté, Y. Tay, C. Pal, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1908.10449)
+  * **Interactive Language Learning by Question Answering.** X. Yuan\*, M.-A. Côté\*, J. Fu, Z. Lin, C. Pal, Y. Bengio, A. Trischler. In EMNLP, 2019. [ArXiv](https://arxiv.org/abs/1908.10909)
+  * **TextWorld: A Learning Environment for Text-based Games.** M.-A. Côté, Á. Kádár, X. Yuan, B. Kybartas, T. Barnes, E. Fine, J. Moore, M. Hausknecht, L. El Asri, M. Adada, W. Tay, A. Trischler. In Computer Games Workshop, ICML/IJCAI, 2018. [ArXiv](https://arxiv.org/abs/1806.11532)
 
 * Machine Comprehension and Language Generation:
   * **An Empirical Study on Neural Keyphrase Generation** R. Meng, X. Yuan, T. Wang, S. Zhao, A. Trischler, D. He. In NAACL 2021. [ArXiv](https://arxiv.org/abs/2009.10229)
