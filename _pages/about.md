@@ -11,7 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
-* New paper accepted: **Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language.** I.-J. Liu\*, X. Yuan\*, M.-A. Côté\*, P.-Y. Oudeyer, and A. Schwin. In ICML 2022. [ArXiv](https://arxiv.org/abs/2205.06111)
+* New paper accepted: **Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language.** I.-J. Liu\*, X. Yuan\*, M.-A. Côté\*, P.-Y. Oudeyer, and A. Schwing. In ICML 2022. [ArXiv](https://arxiv.org/abs/2205.06111)
 * I am among the Highlighted Reviewers at ICLR 2022!
 
 Education
@@ -35,7 +35,7 @@ Service
 Selected publications
 ======
 * Info Seeking and Interactive Learning via Language:
-  * **Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language.** I.-J. Liu\*, X. Yuan\*, M.-A. Côté\*, P.-Y. Oudeyer, and A. Schwin. In ICML 2022. [ArXiv](https://arxiv.org/abs/2205.06111)
+  * **Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language.** I.-J. Liu\*, X. Yuan\*, M.-A. Côté\*, P.-Y. Oudeyer, and A. Schwing. In ICML 2022. [ArXiv](https://arxiv.org/abs/2205.06111)
   * **Interactive Machine Comprehension with Dynamic Knowledge Graphs.** X. Yuan. In EMNLP 2021. [ArXiv](https://arxiv.org/abs/2109.00077)
   * **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** M. Shridhar, X. Yuan, M.-A. Côté, Y. Bisk, A. Trischler, M Hausknecht. ICLR 2021. [ArXiv](https://arxiv.org/abs/2010.03768)
   * **Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games.** A. Adhikari\*, X. Yuan\*, M.-A. Côté\*, M. Zelinka, M.-A. Rondeau, R. Laroche, P. Poupart, J. Tang, A. Trischler, W. Hamilton. NeurIPS 2020. [ArXiv](https://arxiv.org/abs/2002.09127/)
