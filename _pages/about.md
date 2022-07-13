@@ -11,6 +11,7 @@ I am interested in Deep Learning and its applications. I have focused on designi
 
 News
 ======
+* I'm among the Outstanding Reviewers at ICML 2022!
 * New paper accepted: **Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language.** I.-J. Liu\*, X. Yuan\*, M.-A. Côté\*, P.-Y. Oudeyer, and A. Schwing. In ICML 2022. [ArXiv](https://arxiv.org/abs/2205.06111)
 * I am among the Highlighted Reviewers at ICLR 2022!
 
@@ -27,7 +28,7 @@ Work experience
 Service
 ======
 * Reviewer: ACL, EMNLP, NAACL, ICML, NeurIPS, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
-* Outstanding/Highlighted Reviewer: EMNLP 2020, NeurIPS 2021, ICLR 2022.
+* Outstanding/Highlighted Reviewer: EMNLP 2020, NeurIPS 2021, ICLR 2022, ICML 2022.
 * Organizer: 
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
   * Wordplay: When Language Meets Games Workshop at NeurIPS 2020. [Website](https://wordplay-workshop.github.io/)
