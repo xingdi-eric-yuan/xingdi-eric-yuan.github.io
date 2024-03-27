@@ -35,7 +35,7 @@ Service
   * Wordplay: When Language Meets Games Workshop at NeurIPS 2020, NAACL 2021, ACL 2024. [Website](https://wordplay-workshop.github.io/)
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
 
-Recent ArXivs
+Recent Preprints
 ======
 * **Language-guided Skill Learning with Temporal Variational Inference** Haotian Fu, Pratyusha Sharma, Elias Stengel-Eskin, George Konidaris, Nicolas Le Roux, Marc-Alexandre Côté\*, Xingdi Yuan\*. [ArXiv](https://arxiv.org/abs/2402.16354)
 * **Policy Improvement using Language Feedback Models** Victor Zhong, Dipendra Misra, Xingdi Yuan, Marc-Alexandre Côté. [ArXiv](https://arxiv.org/abs/2402.07876)
