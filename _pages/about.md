@@ -37,7 +37,7 @@ Service
 
 Recent ArXivs
 ======
-* **Language-guided Skill Learning with Temporal Variational Inference** Haotian Fu, Pratyusha Sharma, Elias Stengel-Eskin, George Konidaris, Nicolas Le Roux, Marc-Alexandre Côté, Xingdi Yuan. [ArXiv](https://arxiv.org/abs/2402.16354)
+* **Language-guided Skill Learning with Temporal Variational Inference** Haotian Fu, Pratyusha Sharma, Elias Stengel-Eskin, George Konidaris, Nicolas Le Roux, Marc-Alexandre Côté\*, Xingdi Yuan\*. [ArXiv](https://arxiv.org/abs/2402.16354)
 * **Policy Improvement using Language Feedback Models** Victor Zhong, Dipendra Misra, Xingdi Yuan, Marc-Alexandre Côté. [ArXiv](https://arxiv.org/abs/2402.07876)
 * **V-STaR: Training Verifiers for Self-Taught Reasoners** Arian Hosseini, Xingdi Yuan, Nikolay Malkin, Aaron Courville, Alessandro Sordoni, Rishabh Agarwal. [ArXiv](https://arxiv.org/abs/2402.06457)
 
