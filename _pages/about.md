@@ -9,12 +9,14 @@ redirect_from:
 ---
 I aim to develop machines that can **read, write, and use language as a tool**, in both static datasets and interactive worlds.
 
-<!-- 
+
 News
 ======
-* I'm among the Outstanding Reviewers at ICML 2022!
-* New paper accepted: **Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language.** I.-J. Liu\*, X. Yuan\*, M.-A. Côté\*, P.-Y. Oudeyer, and A. Schwing. In ICML 2022. [ArXiv](https://arxiv.org/abs/2205.06111)
-* I am among the Highlighted Reviewers at ICLR 2022! -->
+* I plan to attend ACL 2024 (Bangkok), feel free to schedule a chat with me. 
+* New paper accepted: **Language-guided Skill Learning with Temporal Variational Inference** at ICML 2024. [ArXiv](https://arxiv.org/abs/2402.16354)
+* New paper accepted: **Think Before You Act: Decision Transformers with Working Memory** at ICML 2024. [ArXiv](https://arxiv.org/abs/2305.16338)
+* New paper accepted: **Chain-of-Simulation: Can Language Models Serve as Text-Based World Simulators?** at ACL 2024. [Coming soon...](https://arxiv.org/)
+* New paper accepted: **OPEx: A Component-Wise Analysis of LLM-Centric Agents in Embodied Instruction Following** at ACL 2024. [ArXiv](https://arxiv.org/abs/2403.03017)
 
 Education
 ======
@@ -37,10 +39,9 @@ Service
 
 Recent Preprints
 ======
-* **Language-guided Skill Learning with Temporal Variational Inference** Haotian Fu, Pratyusha Sharma, Elias Stengel-Eskin, George Konidaris, Nicolas Le Roux, Marc-Alexandre Côté\*, Xingdi Yuan\*. [ArXiv](https://arxiv.org/abs/2402.16354)
 * **Policy Improvement using Language Feedback Models** Victor Zhong, Dipendra Misra, Xingdi Yuan, Marc-Alexandre Côté. [ArXiv](https://arxiv.org/abs/2402.07876)
 * **V-STaR: Training Verifiers for Self-Taught Reasoners** Arian Hosseini, Xingdi Yuan, Nikolay Malkin, Aaron Courville, Alessandro Sordoni, Rishabh Agarwal. [ArXiv](https://arxiv.org/abs/2402.06457)
-
+* **Guiding Language Model Reasoning with Planning Tokens** Xinyi Wang, Lucas Caccia, Oleksiy Ostapenko, Xingdi Yuan, William Yang Wang, Alessandro Sordoni. [ArXiv](https://arxiv.org/abs/2310.05707)
 
 Selected publications
 ======
@@ -56,6 +57,7 @@ Selected publications
   * **One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases** X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1810.05241)
 
 * Machines that can use language as a tool:
+  * **Language-guided Skill Learning with Temporal Variational Inference** H. Fu, P. Sharma, E. Stengel-Eskin, G. Konidaris, N. Le Roux, M.-A. Côté\*, X. Yuan\*. In ICML 2024. [ArXiv](https://arxiv.org/abs/2402.16354)
   * **ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games** R. Wang, G. Todd, X. Yuan, Z. Xiao, M.-A. Côté, P. Jansen. In EMNLP 2023. [ArXiv](https://arxiv.org/abs/2305.14879)
   * **Deep Language Networks: Joint Prompt Training of Stacked LLMs using Variational Inference** A. Sordoni, X. Yuan, M.-A. Côté, M. Pereira, A. Trischler, Z. Xiao, A. Hosseini, F. Niedtner, N. Le Roux. [ArXiv](https://arxiv.org/abs//2306.12509)
   * **Augmenting Autotelic Agents with Large Language Models** C. Colas, L. Teodorescu, P.-Y. Oudeyer, X. Yuan, M.-A. Côté. In CoLLAs 2023. [ArXiv](https://arxiv.org/abs/2305.12487)
