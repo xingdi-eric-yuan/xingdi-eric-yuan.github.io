@@ -15,7 +15,7 @@ News
 * I plan to attend ACL 2024 (Bangkok), feel free to schedule a chat with me. 
 * New paper accepted: **Language-guided Skill Learning with Temporal Variational Inference** at ICML 2024. [ArXiv](https://arxiv.org/abs/2402.16354)
 * New paper accepted: **Think Before You Act: Decision Transformers with Working Memory** at ICML 2024. [ArXiv](https://arxiv.org/abs/2305.16338)
-* New paper accepted: **Chain-of-Simulation: Can Language Models Serve as Text-Based World Simulators?** at ACL 2024. [Coming soon...](https://arxiv.org/)
+* New paper accepted: **Can Language Models Serve as Text-Based World Simulators?** at ACL 2024. [ArXiv](https://arxiv.org/abs/2406.06485)
 * New paper accepted: **OPEx: A Component-Wise Analysis of LLM-Centric Agents in Embodied Instruction Following** at ACL 2024. [ArXiv](https://arxiv.org/abs/2403.03017)
 
 Education
@@ -30,7 +30,7 @@ Work experience
 
 Service
 ======
-* Area Chair: NeurIPS 2024.
+* Area Chair: NeurIPS 2024, ARR.
 * Reviewer: ACL, EMNLP, NAACL, ICML, NeurIPS, ICLR, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
 * Outstanding/Highlighted Reviewer: EMNLP 2020, NeurIPS 2021, ICLR 2022, ICML 2022.
 * Organizer: 
@@ -58,6 +58,7 @@ Selected publications
 
 * Machines that can use language as a tool:
   * **Language-guided Skill Learning with Temporal Variational Inference** H. Fu, P. Sharma, E. Stengel-Eskin, G. Konidaris, N. Le Roux, M.-A. Côté\*, X. Yuan\*. In ICML 2024. [ArXiv](https://arxiv.org/abs/2402.16354)
+  * **Can Language Models Serve as Text-Based World Simulators?** R. Wang, G. Todd, Z. Xiao, X. Yuan, M.-A. Côté, P. Clark, P. Jansen. In ACL 2024. [ArXiv](https://arxiv.org/abs/2406.06485)
   * **ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games** R. Wang, G. Todd, X. Yuan, Z. Xiao, M.-A. Côté, P. Jansen. In EMNLP 2023. [ArXiv](https://arxiv.org/abs/2305.14879)
   * **Deep Language Networks: Joint Prompt Training of Stacked LLMs using Variational Inference** A. Sordoni, X. Yuan, M.-A. Côté, M. Pereira, A. Trischler, Z. Xiao, A. Hosseini, F. Niedtner, N. Le Roux. [ArXiv](https://arxiv.org/abs//2306.12509)
   * **Augmenting Autotelic Agents with Large Language Models** C. Colas, L. Teodorescu, P.-Y. Oudeyer, X. Yuan, M.-A. Côté. In CoLLAs 2023. [ArXiv](https://arxiv.org/abs/2305.12487)
