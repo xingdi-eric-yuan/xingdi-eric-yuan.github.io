@@ -30,7 +30,7 @@ Work experience
 
 Service
 ======
-* Area Chair: NeurIPS 2024, ARR.
+* Area Chair: NeurIPS, ARR.
 * Reviewer: ACL, EMNLP, NAACL, ICML, NeurIPS, ICLR, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
 * Outstanding/Highlighted Reviewer: EMNLP 2020, NeurIPS 2021, ICLR 2022, ICML 2022.
 * Organizer: 

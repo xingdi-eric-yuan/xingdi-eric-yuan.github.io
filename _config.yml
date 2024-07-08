@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Xingdi (Eric) Yuan"
 title_separator          : "-"
-name                     : &name "Xingdi (Eric) Yuan"
+name                     : &name "袁 星柢"
 description              : &description "Senior Researcher at Microsoft Research, Montréal"
 url                      : https://xingdi-eric-yuan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xingdi (Eric) Yuan"
+  name             : "袁 星柢"
   avatar           : "profile.jpg"
   bio              : "Senior Researcher at Microsoft Research, Montréal"
   location         : "Montréal, Canada"
