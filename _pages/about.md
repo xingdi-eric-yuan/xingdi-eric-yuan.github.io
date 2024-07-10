@@ -13,6 +13,8 @@ I aim to develop machines that can **read, write, and use language as a tool**, 
 News
 ======
 * I plan to attend ACL 2024 (Bangkok), feel free to schedule a chat with me. 
+* New paper accepted: **V-STaR: Training Verifiers for Self-Taught Reasoners** at CoLM 2024. [ArXiv](https://arxiv.org/abs/2402.06457)
+* New paper accepted: **Guiding Language Model Reasoning with Planning Tokens** at CoLM 2024. [ArXiv](https://arxiv.org/abs/2310.05707)
 * New paper accepted: **Language-guided Skill Learning with Temporal Variational Inference** at ICML 2024. [ArXiv](https://arxiv.org/abs/2402.16354)
 * New paper accepted: **Think Before You Act: Decision Transformers with Working Memory** at ICML 2024. [ArXiv](https://arxiv.org/abs/2305.16338)
 * New paper accepted: **Can Language Models Serve as Text-Based World Simulators?** at ACL 2024. [ArXiv](https://arxiv.org/abs/2406.06485)
