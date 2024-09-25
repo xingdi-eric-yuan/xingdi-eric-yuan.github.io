@@ -12,13 +12,8 @@ I aim to develop machines that can **read, write, and use language as a tool**, 
 
 News
 ======
-* I plan to attend ACL 2024 (Bangkok), feel free to schedule a chat with me. 
-* New paper accepted: **V-STaR: Training Verifiers for Self-Taught Reasoners** at CoLM 2024. [ArXiv](https://arxiv.org/abs/2402.06457)
-* New paper accepted: **Guiding Language Model Reasoning with Planning Tokens** at CoLM 2024. [ArXiv](https://arxiv.org/abs/2310.05707)
-* New paper accepted: **Language-guided Skill Learning with Temporal Variational Inference** at ICML 2024. [ArXiv](https://arxiv.org/abs/2402.16354)
-* New paper accepted: **Think Before You Act: Decision Transformers with Working Memory** at ICML 2024. [ArXiv](https://arxiv.org/abs/2305.16338)
-* New paper accepted: **Can Language Models Serve as Text-Based World Simulators?** at ACL 2024. [ArXiv](https://arxiv.org/abs/2406.06485)
-* New paper accepted: **OPEx: A Component-Wise Analysis of LLM-Centric Agents in Embodied Instruction Following** at ACL 2024. [ArXiv](https://arxiv.org/abs/2403.03017)
+* New paper accepted: **Policy Improvement using Language Feedback Models** at NeurIPS 2024. [ArXiv](https://arxiv.org/abs/2402.06457)
+* New paper accepted: **Enhancing Agent Learning through World Dynamics Modeling** at EMNLP 2024 Findings. [ArXiv](https://arxiv.org/abs/2407.17695)
 
 Education
 ======
@@ -33,17 +28,17 @@ Work experience
 Service
 ======
 * Area Chair: NeurIPS, ARR.
-* Reviewer: ACL, EMNLP, NAACL, ICML, NeurIPS, ICLR, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
+* Reviewer: TACL, ACL, EMNLP, NAACL, ICML, NeurIPS, ICLR, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
 * Outstanding/Highlighted Reviewer: EMNLP 2020, NeurIPS 2021, ICLR 2022, ICML 2022.
 * Organizer: 
-  * Wordplay: When Language Meets Games Workshop at NeurIPS 2020, NAACL 2021, ACL 2024. [Website](https://wordplay-workshop.github.io/)
+  * Wordplay: When Language Meets Games Workshop at NeurIPS 2020, NAACL 2022, ACL 2024. [Website](https://wordplay-workshop.github.io/)
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
-
+<!-- 
 Recent Preprints
 ======
 * **Policy Improvement using Language Feedback Models** Victor Zhong, Dipendra Misra, Xingdi Yuan, Marc-Alexandre Côté. [ArXiv](https://arxiv.org/abs/2402.07876)
 * **V-STaR: Training Verifiers for Self-Taught Reasoners** Arian Hosseini, Xingdi Yuan, Nikolay Malkin, Aaron Courville, Alessandro Sordoni, Rishabh Agarwal. [ArXiv](https://arxiv.org/abs/2402.06457)
-* **Guiding Language Model Reasoning with Planning Tokens** Xinyi Wang, Lucas Caccia, Oleksiy Ostapenko, Xingdi Yuan, William Yang Wang, Alessandro Sordoni. [ArXiv](https://arxiv.org/abs/2310.05707)
+* **Guiding Language Model Reasoning with Planning Tokens** Xinyi Wang, Lucas Caccia, Oleksiy Ostapenko, Xingdi Yuan, William Yang Wang, Alessandro Sordoni. [ArXiv](https://arxiv.org/abs/2310.05707) -->
 
 Selected publications
 ======
@@ -59,6 +54,8 @@ Selected publications
   * **One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases** X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1810.05241)
 
 * Machines that can use language as a tool:
+  * **Enhancing Agent Learning through World Dynamics Modeling** Z. Sun, H. Shi, M.-A. Côté, G. Berseth, X. Yuan, B. Liu In EMNLP 2024 Findings. [ArXiv](https://arxiv.org/abs/2407.17695)
+  * **Policy Improvement using Language Feedback Models** V. Zhong, D. Misra, X. Yuan, M.-A. Côté. In NeurIPS 2024. [ArXiv](https://arxiv.org/abs/2402.07876)
   * **Language-guided Skill Learning with Temporal Variational Inference** H. Fu, P. Sharma, E. Stengel-Eskin, G. Konidaris, N. Le Roux, M.-A. Côté\*, X. Yuan\*. In ICML 2024. [ArXiv](https://arxiv.org/abs/2402.16354)
   * **Can Language Models Serve as Text-Based World Simulators?** R. Wang, G. Todd, Z. Xiao, X. Yuan, M.-A. Côté, P. Clark, P. Jansen. In ACL 2024. [ArXiv](https://arxiv.org/abs/2406.06485)
   * **ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games** R. Wang, G. Todd, X. Yuan, Z. Xiao, M.-A. Côté, P. Jansen. In EMNLP 2023. [ArXiv](https://arxiv.org/abs/2305.14879)
