@@ -33,12 +33,6 @@ Service
 * Organizer: 
   * Wordplay: When Language Meets Games Workshop at NeurIPS 2020, NAACL 2022, ACL 2024. [Website](https://wordplay-workshop.github.io/)
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
-<!-- 
-Recent Preprints
-======
-* **Policy Improvement using Language Feedback Models** Victor Zhong, Dipendra Misra, Xingdi Yuan, Marc-Alexandre Côté. [ArXiv](https://arxiv.org/abs/2402.07876)
-* **V-STaR: Training Verifiers for Self-Taught Reasoners** Arian Hosseini, Xingdi Yuan, Nikolay Malkin, Aaron Courville, Alessandro Sordoni, Rishabh Agarwal. [ArXiv](https://arxiv.org/abs/2402.06457)
-* **Guiding Language Model Reasoning with Planning Tokens** Xinyi Wang, Lucas Caccia, Oleksiy Ostapenko, Xingdi Yuan, William Yang Wang, Alessandro Sordoni. [ArXiv](https://arxiv.org/abs/2310.05707) -->
 
 Selected publications
 ======
