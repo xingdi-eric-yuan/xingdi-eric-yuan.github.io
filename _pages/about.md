@@ -9,11 +9,10 @@ redirect_from:
 ---
 I aim to develop machines that can **read, write, and use language as a tool**, in both static datasets and interactive worlds.
 
-
 News
 ======
-* New paper accepted: **Policy Improvement using Language Feedback Models** at NeurIPS 2024. [ArXiv](https://arxiv.org/abs/2402.06457)
-* New paper accepted: **Enhancing Agent Learning through World Dynamics Modeling** at EMNLP 2024 Findings. [ArXiv](https://arxiv.org/abs/2407.17695)
+* The 5th Wordplay workshop will be at EMNLP 2025 (Suzhou, China), announcing soon!
+* I am looking for a 2025 summer intern. If you have good experience with code generation / program synthesis / language x RL, let me know!
 
 Education
 ======
@@ -27,11 +26,11 @@ Work experience
 
 Service
 ======
-* Area Chair: NeurIPS, ARR.
+* Area Chair: ICML, NeurIPS, ARR.
 * Reviewer: TACL, ACL, EMNLP, NAACL, ICML, NeurIPS, ICLR, SIGIR, Montreal AI Symposium (MAIS), Reasoning for Complex Question Answering (RCQA) Workshop.
 * Outstanding/Highlighted Reviewer: EMNLP 2020, NeurIPS 2021, ICLR 2022, ICML 2022.
 * Organizer: 
-  * Wordplay: When Language Meets Games Workshop at NeurIPS 2020, NAACL 2022, ACL 2024. [Website](https://wordplay-workshop.github.io/)
+  * Wordplay: When Language Meets Games Workshop at NeurIPS 2020, NAACL 2022, ACL 2024, EMNLP 2025. [Website](https://wordplay-workshop.github.io/)
   * Knowledge-Based Reinforcement Learning (KBRL) Workshop at IJCAI-PRICAI 2020, Yokohama, Japan. [Website](https://kbrl.github.io/)
 
 Selected publications
