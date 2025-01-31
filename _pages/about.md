@@ -12,7 +12,6 @@ I aim to develop machines that can **read, write, and use language as a tool**, 
 News
 ======
 * The 5th Wordplay workshop will be at EMNLP 2025 (Suzhou, China), announcing soon!
-* I am looking for a 2025 summer intern. If you have good experience with code generation / program synthesis / language x RL, let me know!
 
 Education
 ======
