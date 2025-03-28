@@ -11,7 +11,7 @@ I aim to develop machines that can **read, write, and use language as a tool**, 
 
 News
 ======
-* New technical report on ArXiv: debug-gym: A Text-Based Environment for Interactive Debugging. [ArXiv](https://arxiv.org/abs/2503.21557)
+* New technical report on ArXiv: debug-gym: A Text-Based Environment for Interactive Debugging. [website](https://aka.ms/debug-gym/)
 * The 5th Wordplay workshop will be at EMNLP 2025 (Suzhou, China)! [website](https://wordplay-workshop.github.io/)
 
 Education
