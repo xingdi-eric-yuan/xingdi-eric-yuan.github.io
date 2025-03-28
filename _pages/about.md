@@ -11,7 +11,8 @@ I aim to develop machines that can **read, write, and use language as a tool**, 
 
 News
 ======
-* The 5th Wordplay workshop will be at EMNLP 2025 (Suzhou, China), announcing soon!
+* New technical report on ArXiv: debug-gym: A Text-Based Environment for Interactive Debugging. [ArXiv](https://arxiv.org/abs/2503.21557)
+* The 5th Wordplay workshop will be at EMNLP 2025 (Suzhou, China)! [website](https://wordplay-workshop.github.io/)
 
 Education
 ======
@@ -46,6 +47,7 @@ Selected publications
   * **One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases** X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1810.05241)
 
 * Machines that can use language as a tool:
+  * **debug-gym: A Text-Based Environment for Interactive Debugging** X. Yuan\*, M. Moss, C. El Feghali, C. Singh, D. Moldavskaya, D. MacPhee, L. Caccia, M. Pereira, M. Kim, A. Sordoni, M.-A. Côté\*. [ArXiv](https://arxiv.org/abs/2503.21557)
   * **Enhancing Agent Learning through World Dynamics Modeling** Z. Sun, H. Shi, M.-A. Côté, G. Berseth, X. Yuan, B. Liu In EMNLP 2024 Findings. [ArXiv](https://arxiv.org/abs/2407.17695)
   * **Policy Improvement using Language Feedback Models** V. Zhong, D. Misra, X. Yuan, M.-A. Côté. In NeurIPS 2024. [ArXiv](https://arxiv.org/abs/2402.07876)
   * **Language-guided Skill Learning with Temporal Variational Inference** H. Fu, P. Sharma, E. Stengel-Eskin, G. Konidaris, N. Le Roux, M.-A. Côté\*, X. Yuan\*. In ICML 2024. [ArXiv](https://arxiv.org/abs/2402.16354)
