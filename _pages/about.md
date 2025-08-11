@@ -7,10 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I aim to develop machines that can **read, write, and use language as a tool**, in both static datasets and interactive worlds.
+I aim to develop machines that can **read, write, and use language as a tool**, in both static datasets and interactive worlds. My recent work focuses on teaching coding AI to better understand the codebase, and to debug using tools.
 
 News
 ======
+* Our work [**Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs**](https://arxiv.org/abs/2505.09338) has been recognized as one of the outstanding papers at ACL 2025.
 * New technical report on ArXiv: debug-gym: A Text-Based Environment for Interactive Debugging. [website](https://aka.ms/debug-gym/)
 * The 5th Wordplay workshop will be at EMNLP 2025 (Suzhou, China)! [website](https://wordplay-workshop.github.io/)
 
@@ -43,6 +44,7 @@ Selected publications
   * **Natural Language Comprehension with the Epireader** A. Trischler, Z. Ye, X. Yuan, P. Bachman, A. Sordoni, K. Suleman. In EMNLP, 2016. [ArXiv](https://arxiv.org/abs/1606.02270)
 
 * Machines that can write:
+  * **Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs** J. Niu, X. Yuan, T. Wang, H. Saghir, A. H. Abdi. In ACL 2025 (outstanding paper award). [ArXiv](https://arxiv.org/abs/2505.09338)
   * **General-to-Specific Transfer Labeling for Domain Adaptable Keyphrase Generation** R. Meng, T. Wang, X. Yuan, Y. Zhou, D. He. In ACL Findings 2023. [ArXiv](https://arxiv.org/abs/2208.09606)
   * **An Empirical Study on Neural Keyphrase Generation** R. Meng, X. Yuan, T. Wang, S. Zhao, A. Trischler, D. He. In NAACL 2021. [ArXiv](https://arxiv.org/abs/2009.10229)
   * **One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases** X. Yuan\*, T. Wang\*, R. Meng\*, K. Thaker, P. Brusilovsky, D. He, A. Trischler. In ACL 2020. [ArXiv](https://arxiv.org/abs/1810.05241)
