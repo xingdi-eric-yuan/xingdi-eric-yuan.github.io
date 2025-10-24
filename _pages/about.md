@@ -7,13 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I aim to develop machines that can **read, write, and use language as a tool**, in both static datasets and interactive worlds. My recent work focuses on teaching coding AI to better understand the codebase, and to debug using tools.
+I aim to develop machines that can **read, write, and use language as a tool**, in both static datasets and interactive worlds. My recent work focuses on teaching coding AI to better understand the codebase, and to debug using tools. Find our recent work in Coding AI in [the Froggy team](https://microsoft.github.io/debug-gym/)'s page. 
 
 News
 ======
-* Our work [**Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs**](https://arxiv.org/abs/2505.09338) has been recognized as one of the outstanding papers at ACL 2025.
-* New technical report on ArXiv: debug-gym: A Text-Based Environment for Interactive Debugging. [website](https://aka.ms/debug-gym/)
-* The 5th Wordplay workshop will be at EMNLP 2025 (Suzhou, China)! [website](https://wordplay-workshop.github.io/)
+* I will attend EMNLP 2025 in Suzhou, welcome to the 5th Wordplay workshop [website](https://wordplay-workshop.github.io/), feel free to drop me a message if you want to chat!
 
 Education
 ======
