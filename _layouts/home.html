@@ -61,8 +61,8 @@ layout: null
       <section class="section">
         <h2 class="section__title">Selected Publications</h2>
 
-        <div class="pub-category">
-          <h3 class="pub-category__title">Machines that can read</h3>
+        <details class="pub-category">
+          <summary class="pub-category__title">Machines that can read <span class="pub-count">({{ site.data.publications.reading | size }})</span></summary>
           <ul class="pub-list">
             {% for pub in site.data.publications.reading %}
             <li class="pub-item">
@@ -73,10 +73,10 @@ layout: null
             </li>
             {% endfor %}
           </ul>
-        </div>
+        </details>
 
-        <div class="pub-category">
-          <h3 class="pub-category__title">Machines that can write</h3>
+        <details class="pub-category">
+          <summary class="pub-category__title">Machines that can write <span class="pub-count">({{ site.data.publications.writing | size }})</span></summary>
           <ul class="pub-list">
             {% for pub in site.data.publications.writing %}
             <li class="pub-item">
@@ -87,10 +87,10 @@ layout: null
             </li>
             {% endfor %}
           </ul>
-        </div>
+        </details>
 
-        <div class="pub-category">
-          <h3 class="pub-category__title">Machines that can use language as a tool</h3>
+        <details class="pub-category" open>
+          <summary class="pub-category__title">Machines that can use language as a tool <span class="pub-count">({{ site.data.publications.language_as_tool | size }})</span></summary>
           <ul class="pub-list">
             {% for pub in site.data.publications.language_as_tool %}
             <li class="pub-item">
@@ -101,7 +101,7 @@ layout: null
             </li>
             {% endfor %}
           </ul>
-        </div>
+        </details>
       </section>
 
       <!-- Experience -->

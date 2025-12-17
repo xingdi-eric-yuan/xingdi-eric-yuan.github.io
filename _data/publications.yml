@@ -11,6 +11,11 @@
 # Papers are grouped by category. Add new papers to the appropriate section.
 
 reading:
+  - title: "NewsQA: A Machine Comprehension Dataset"
+    authors: "Adam Trischler*, Tong Wang*, Xingdi Yuan*, Justin Harris, Alessandro Sordoni, Philip Bachman, Kaheer Suleman"
+    venue: "RepL4NLP Workshop, ACL 2017"
+    arxiv: "https://arxiv.org/abs/1611.09830"
+
   - title: "Building Dynamic Knowledge Graphs from Text using Machine Reading Comprehension"
     authors: "Rajarshi Das, Tsendsuren Munkhdalai, Xingdi Yuan, Adam Trischler, Andrew McCallum"
     venue: "ICLR 2019"
@@ -20,11 +25,6 @@ reading:
     authors: "Xingdi Yuan*, Tong Wang*, Caglar Gulcehre*, Alessandro Sordoni*, Philip Bachman, Saizheng Zhang, Sandeep Subramanian, Adam Trischler"
     venue: "RepL4NLP Workshop, ACL 2017"
     arxiv: "https://arxiv.org/abs/1705.02012"
-
-  - title: "NewsQA: A Machine Comprehension Dataset"
-    authors: "Adam Trischler*, Tong Wang*, Xingdi Yuan*, Justin Harris, Alessandro Sordoni, Philip Bachman, Kaheer Suleman"
-    venue: "RepL4NLP Workshop, ACL 2017"
-    arxiv: "https://arxiv.org/abs/1611.09830"
 
   - title: "Natural Language Comprehension with the EpiReader"
     authors: "Adam Trischler, Zheng Ye, Xingdi Yuan, Kaheer Suleman"
@@ -58,6 +58,16 @@ language_as_tool:
     authors: "Xingdi Yuan*, Morgane M Moss, Charbel El Feghali, Chinmay Singh, Darya Moldavskaya, Drew MacPhee, Lucas Caccia, Matheus Pereira, Minseon Kim, Alessandro Sordoni, Marc-Alexandre Côté*"
     venue: "2025"
     arxiv: "https://arxiv.org/abs/2503.21557"
+
+  - title: "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills"
+    authors: "Atharv Sonwane*, Isadora White*, Hyunji Lee, Matheus Pereira, Lucas Caccia, Minseon Kim, Zhengyan Shi, Chinmay Singh, Alessandro Sordoni, Marc-Alexandre Côté, Xingdi Yuan"
+    venue: "2025"
+    arxiv: "https://arxiv.org/abs/2510.19898"
+
+  - title: "Gistify! Codebase-Level Understanding via Runtime Execution"
+    authors: "Hyunji Lee, Minseon Kim, Chinmay Singh, Matheus Pereira, Atharv Sonwane, Isadora White, Elias Stengel-Eskin, Mohit Bansal, Zhengyan Shi, Alessandro Sordoni, Marc-Alexandre Côté, Xingdi Yuan, Lucas Caccia"
+    venue: "2025"
+    arxiv: "https://arxiv.org/abs/2510.26790"
 
   - title: "Enhancing Agent Learning through World Dynamics Modeling"
     authors: "Zhiyuan Sun, Haochen Shi, Marc-Alexandre Côté, Glen Berseth, Xingdi Yuan, Bang Liu"
