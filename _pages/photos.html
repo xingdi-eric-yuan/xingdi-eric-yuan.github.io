@@ -26,55 +26,44 @@ layout: null
       background: #0a0a0a;
       min-height: 100vh;
       font-family: 'Source Sans Pro', sans-serif;
-      overflow-x: hidden;
-    }
-
-    /* Masonry-style scattered grid */
-    .photo-wall {
-      column-count: 3;
-      column-gap: 8px;
-      padding: 8px;
-      max-width: 1600px;
-      margin: 0 auto;
-    }
-
-    @media (max-width: 900px) {
-      .photo-wall {
-        column-count: 2;
-      }
-    }
-
-    @media (max-width: 500px) {
-      .photo-wall {
-        column-count: 1;
-        padding: 4px;
-      }
-    }
-
-    .photo-item {
-      break-inside: avoid;
-      margin-bottom: 8px;
-      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       overflow: hidden;
     }
 
-    .photo-item img {
-      width: 100%;
-      display: block;
-      transition: transform 0.6s ease, filter 0.3s ease;
-      filter: brightness(0.85);
+    .photo-container {
+      position: relative;
+      max-width: 90vw;
+      max-height: 85vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
-    .photo-item:hover img {
-      transform: scale(1.02);
-      filter: brightness(1);
+    .photo-container img {
+      max-width: 90vw;
+      max-height: 85vh;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity 0.5s ease;
     }
 
-    /* Back button - floating */
-    .back-btn {
+    .photo-container img.loaded {
+      opacity: 1;
+    }
+
+    .controls {
       position: fixed;
       bottom: 2rem;
-      right: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 1rem;
+      z-index: 100;
+    }
+
+    .btn {
       background: rgba(255,255,255,0.1);
       color: #888;
       border: 1px solid rgba(255,255,255,0.2);
@@ -86,80 +75,69 @@ layout: null
       text-decoration: none;
       backdrop-filter: blur(10px);
       transition: all 0.3s ease;
-      z-index: 100;
+      cursor: pointer;
     }
 
-    .back-btn:hover {
+    .btn:hover {
       background: rgba(255,255,255,0.15);
       color: #fff;
       border-color: rgba(255,255,255,0.4);
     }
-
-    /* Placeholder styles - remove when you add real photos */
-    .placeholder {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #333;
-      font-size: 0.8rem;
-    }
-
-    .placeholder.tall { height: 400px; }
-    .placeholder.medium { height: 280px; }
-    .placeholder.short { height: 200px; }
-    .placeholder.wide { height: 220px; }
   </style>
 </head>
 <body>
 
-  <div class="photo-wall">
-    <!--
-      Add your photos here. The masonry layout will automatically
-      arrange them in a nice scattered pattern.
-
-      Example:
-      <div class="photo-item">
-        <img src="/images/photos/your-photo.jpg" alt="">
-      </div>
-
-      Tips:
-      - Mix different aspect ratios for visual interest
-      - No captions needed - let the photos speak
-      - Recommended: 1200-1600px on the long edge
-    -->
-
-    <!-- Placeholder photos - replace with your own -->
-    <div class="photo-item">
-      <div class="placeholder tall">your photo</div>
-    </div>
-    <div class="photo-item">
-      <div class="placeholder medium">your photo</div>
-    </div>
-    <div class="photo-item">
-      <div class="placeholder short">your photo</div>
-    </div>
-    <div class="photo-item">
-      <div class="placeholder wide">your photo</div>
-    </div>
-    <div class="photo-item">
-      <div class="placeholder tall">your photo</div>
-    </div>
-    <div class="photo-item">
-      <div class="placeholder medium">your photo</div>
-    </div>
-    <div class="photo-item">
-      <div class="placeholder short">your photo</div>
-    </div>
-    <div class="photo-item">
-      <div class="placeholder wide">your photo</div>
-    </div>
-    <div class="photo-item">
-      <div class="placeholder medium">your photo</div>
-    </div>
+  <div class="photo-container">
+    <img id="photo" src="" alt="">
   </div>
 
-  <a href="{{ '/' | relative_url }}" class="back-btn">Back</a>
+  <div class="controls">
+    <a href="{{ '/' | relative_url }}" class="btn">Back</a>
+    <button id="shuffle" class="btn">Drift</button>
+  </div>
+
+  <script>
+    const photos = [
+      "{{ '/images/photos/060400660025.jpg' | relative_url }}",
+      "{{ '/images/photos/090300720033.jpg' | relative_url }}",
+      "{{ '/images/photos/41070007.jpg' | relative_url }}",
+      "{{ '/images/photos/025110260001.jpg' | relative_url }}",
+      "{{ '/images/photos/050101090001.jpg' | relative_url }}",
+      "{{ '/images/photos/016091550033.jpg' | relative_url }}",
+      "{{ '/images/photos/090900850006.jpg' | relative_url }}",
+      "{{ '/images/photos/050902190010.jpg' | relative_url }}",
+      "{{ '/images/photos/050902190011.jpg' | relative_url }}",
+      "{{ '/images/photos/012128340032.jpg' | relative_url }}",
+      "{{ '/images/photos/012128360031.jpg' | relative_url }}",
+      "{{ '/images/photos/012128390009.jpg' | relative_url }}",
+      "{{ '/images/photos/015031580025.jpg' | relative_url }}",
+      "{{ '/images/photos/030090700007.jpg' | relative_url }}",
+      "{{ '/images/photos/015111390007.jpg' | relative_url }}",
+      "{{ '/images/photos/015111400005.jpg' | relative_url }}"
+    ];
+
+    let currentIndex = -1;
+    const img = document.getElementById('photo');
+    const shuffleBtn = document.getElementById('shuffle');
+
+    function showRandomPhoto() {
+      let newIndex;
+      do {
+        newIndex = Math.floor(Math.random() * photos.length);
+      } while (newIndex === currentIndex && photos.length > 1);
+
+      currentIndex = newIndex;
+      img.classList.remove('loaded');
+
+      img.onload = () => img.classList.add('loaded');
+      img.src = photos[currentIndex];
+    }
+
+    shuffleBtn.addEventListener('click', showRandomPhoto);
+
+    // Show first random photo on load
+    showRandomPhoto();
+  </script>
 
 </body>
 </html>

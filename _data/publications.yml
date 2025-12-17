@@ -27,13 +27,13 @@ reading:
     arxiv: "https://arxiv.org/abs/1611.09830"
 
   - title: "Natural Language Comprehension with the EpiReader"
-    authors: "Adam Trischler, Zheng Ye, Xingdi Yuan, Philip Bachman, Alessandro Sordoni, Kaheer Suleman"
+    authors: "Adam Trischler, Zheng Ye, Xingdi Yuan, Kaheer Suleman"
     venue: "EMNLP 2016"
     arxiv: "https://arxiv.org/abs/1606.02270"
 
 writing:
   - title: "Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs"
-    authors: "Jingru Niu, Xingdi Yuan, Tong Wang, Hamid Saghir, Abdel Hakim Abdi"
+    authors: "Jingcheng Niu, Xingdi Yuan, Tong Wang, Hamidreza Saghir, Amir H. Abdi"
     venue: "ACL 2025"
     arxiv: "https://arxiv.org/abs/2505.09338"
     award: "Outstanding Paper"
@@ -55,7 +55,7 @@ writing:
 
 language_as_tool:
   - title: "debug-gym: A Text-Based Environment for Interactive Debugging"
-    authors: "Xingdi Yuan*, Matthew Moss, Cynthia El Feghali, Chinmaya Singh, Dzmitry Moldavskaya, Dylan MacPhee, Lucas Caccia, Matheus Pereira, Minseon Kim, Alessandro Sordoni, Marc-Alexandre Côté*"
+    authors: "Xingdi Yuan*, Morgane M Moss, Charbel El Feghali, Chinmay Singh, Darya Moldavskaya, Drew MacPhee, Lucas Caccia, Matheus Pereira, Minseon Kim, Alessandro Sordoni, Marc-Alexandre Côté*"
     venue: "2025"
     arxiv: "https://arxiv.org/abs/2503.21557"
 
@@ -80,7 +80,7 @@ language_as_tool:
     arxiv: "https://arxiv.org/abs/2406.06485"
 
   - title: "ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games"
-    authors: "Ruoyao Wang, Graham Todd, Xingdi Yuan, Ziang Xiao, Marc-Alexandre Côté, Peter Jansen"
+    authors: "Ruoyao Wang, Graham Todd, Eric Yuan, Ziang Xiao, Marc-Alexandre Côté, Peter Jansen"
     venue: "EMNLP 2023"
     arxiv: "https://arxiv.org/abs/2305.14879"
 
@@ -100,7 +100,7 @@ language_as_tool:
     arxiv: "https://arxiv.org/abs/2203.04806"
 
   - title: "Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language"
-    authors: "Iou-Jen Liu*, Xingdi Yuan*, Marc-Alexandre Côté*, Pierre-Yves Oudeyer, Alexander Schwing"
+    authors: "Iou-Jen Liu*, Xingdi Yuan*, Marc-Alexandre Côté*, Pierre-Yves Oudeyer, Alexander G. Schwing"
     venue: "ICML 2022"
     arxiv: "https://arxiv.org/abs/2205.06111"
 
@@ -115,7 +115,7 @@ language_as_tool:
     arxiv: "https://arxiv.org/abs/2010.03768"
 
   - title: "Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games"
-    authors: "Ashutosh Adhikari*, Xingdi Yuan*, Marc-Alexandre Côté*, Mikuláš Zelinka, Marc-Antoine Rondeau, Romain Laroche, Pascal Poupart, Jian Tang, Adam Trischler, William Hamilton"
+    authors: "Ashutosh Adhikari*, Xingdi Yuan*, Marc-Alexandre Côté*, Mikuláš Zelinka, Marc-Antoine Rondeau, Romain Laroche, Pascal Poupart, Jian Tang, Adam Trischler, William L. Hamilton"
     venue: "NeurIPS 2020"
     arxiv: "https://arxiv.org/abs/2002.09127"
 
@@ -135,6 +135,6 @@ language_as_tool:
     arxiv: "https://arxiv.org/abs/1908.10909"
 
   - title: "TextWorld: A Learning Environment for Text-based Games"
-    authors: "Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, Adam Trischler"
+    authors: "Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Ruo Yu Tao, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, Adam Trischler"
     venue: "Computer Games Workshop, ICML/IJCAI 2018"
     arxiv: "https://arxiv.org/abs/1806.11532"
