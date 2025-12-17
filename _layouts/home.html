@@ -9,6 +9,20 @@ layout: null
   <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
 
+  <!-- Open Graph / Social Media Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.url }}/images/profile.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.author.twitter }}">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}/images/profile.jpg">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +47,7 @@ layout: null
       <!-- Hero Section -->
       <section class="hero">
         <img src="{{ '/images/profile.jpg' | relative_url }}" alt="{{ site.author.name }}" class="hero__avatar">
-        <h1 class="hero__name">Xingdi (Eric) Yuan</h1>
+        <h1 class="hero__name"><span id="first-name">Xingdi</span> Yuan · 袁 星柢</h1>
         <p class="hero__title">Senior Researcher · Microsoft Research, Montréal</p>
         <p class="hero__bio">
           I aim to develop machines that can <strong>read</strong>, <strong>write</strong>, and <strong>use language as a tool</strong>, in both static datasets and interactive worlds.
@@ -188,5 +202,27 @@ layout: null
     </footer>
 
   </div>
+
+  <script>
+    // Alternate between Xingdi and Eric every 2 seconds
+    const firstName = document.getElementById('first-name');
+    const names = ['Xingdi', 'Eric'];
+    let index = 0;
+
+    setInterval(() => {
+      firstName.style.opacity = '0';
+      setTimeout(() => {
+        index = (index + 1) % names.length;
+        firstName.textContent = names[index];
+        firstName.style.opacity = '1';
+      }, 300);
+    }, 2000);
+  </script>
+
+  <style>
+    #first-name {
+      transition: opacity 0.3s ease;
+    }
+  </style>
 </body>
 </html>

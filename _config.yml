@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Xingdi (Eric) Yuan"
 title_separator          : "-"
 name                     : &name "Xingdi (Eric) Yuan"
-description              : &description "Senior Researcher at Microsoft Research, Montréal"
+description              : &description "Senior Researcher at Microsoft Research, Montréal. Building machines that can read, write, and use language as a tool."
 url                      : https://xingdi-eric-yuan.github.io
 baseurl                  : ""
 repository               : "xingdi-eric-yuan/xingdi-eric-yuan.github.io"
