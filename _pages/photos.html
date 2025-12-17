@@ -27,15 +27,22 @@ layout: null
       min-height: 100vh;
       font-family: 'Source Sans Pro', sans-serif;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding: 2rem;
       overflow: hidden;
     }
 
-    .photo-container {
-      position: relative;
+    .photo-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       max-width: 90vw;
-      max-height: 85vh;
+      max-height: calc(100vh - 8rem);
+    }
+
+    .photo-container {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -43,7 +50,7 @@ layout: null
 
     .photo-container img {
       max-width: 90vw;
-      max-height: 85vh;
+      max-height: calc(100vh - 12rem);
       object-fit: contain;
       opacity: 0;
       transition: opacity 0.5s ease;
@@ -84,19 +91,15 @@ layout: null
       border-color: rgba(255,255,255,0.4);
     }
 
-    /* Photo description - appears below the image */
+    /* Photo caption - below the image */
     .photo-caption {
-      position: fixed;
-      bottom: 5rem;
-      left: 50%;
-      transform: translateX(-50%);
       text-align: center;
-      max-width: 600px;
-      padding: 0 1rem;
+      padding: 1rem 1rem 0;
+      min-height: 3rem;
     }
 
     .photo-caption__text {
-      color: #666;
+      color: #888;
       font-size: 0.95rem;
       font-weight: 300;
       line-height: 1.5;
@@ -109,7 +112,7 @@ layout: null
     }
 
     .photo-caption__meta {
-      color: #444;
+      color: #555;
       font-size: 0.8rem;
       margin-top: 0.25rem;
       opacity: 0;
@@ -123,13 +126,15 @@ layout: null
 </head>
 <body>
 
-  <div class="photo-container">
-    <img id="photo" src="" alt="">
-  </div>
+  <div class="photo-wrapper">
+    <div class="photo-container">
+      <img id="photo" src="" alt="">
+    </div>
 
-  <div class="photo-caption">
-    <p id="description" class="photo-caption__text"></p>
-    <p id="meta" class="photo-caption__meta"></p>
+    <div class="photo-caption">
+      <p id="description" class="photo-caption__text"></p>
+      <p id="meta" class="photo-caption__meta"></p>
+    </div>
   </div>
 
   <div class="controls">
