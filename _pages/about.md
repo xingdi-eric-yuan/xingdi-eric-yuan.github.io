@@ -1,11 +1,8 @@
 ---
-permalink: /
-title: "About me"
+permalink: /about-old/
+title: "About me (Old)"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 I aim to develop machines that can **read, write, and use language as a tool**, in both static datasets and interactive worlds. My recent work focuses on teaching coding AI to better understand the codebase, and to debug using tools. Find our recent work in Coding AI in [the Froggy team](https://microsoft.github.io/debug-gym/)'s page <img src="{{ '/images/froggy_new_logo.png' | relative_url }}" alt="Froggy team logo" style="height:1.25em; margin-left:0.4em; vertical-align:middle;">.
 

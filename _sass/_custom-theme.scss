@@ -1,0 +1,667 @@
+// Custom Academic Theme
+// A clean, serif-based design with scholarly elegance
+
+// ============================================
+// COLOR SCHEMES - Uncomment one to try
+// ============================================
+
+// SCHEME 1: Classic Ink (Default)
+// Deep navy with warm paper tones - timeless academic feel
+$color-primary: #1a2a3a;        // Deep navy for text
+$color-secondary: #4a5a6a;      // Muted blue-gray for secondary text
+$color-accent: #8b4513;         // Saddle brown - like aged leather
+$color-background: #fafaf8;     // Warm off-white, like quality paper
+$color-surface: #ffffff;        // Pure white for cards
+$color-border: #e8e6e1;         // Warm gray border
+$color-link: #2c5282;           // Academic blue
+$color-link-hover: #1a365d;     // Darker blue on hover
+
+// SCHEME 2: Warm Sepia
+// Uncomment below and comment out Scheme 1 to try
+// $color-primary: #2d2418;
+// $color-secondary: #5c4a3a;
+// $color-accent: #8b6914;
+// $color-background: #f9f6f0;
+// $color-surface: #ffffff;
+// $color-border: #e6dfd4;
+// $color-link: #6b4423;
+// $color-link-hover: #4a2f18;
+
+// SCHEME 3: Modern Minimal
+// High contrast black and white with a pop of color
+// $color-primary: #111111;
+// $color-secondary: #555555;
+// $color-accent: #c41e3a;       // Cardinal red accent
+// $color-background: #ffffff;
+// $color-surface: #f8f8f8;
+// $color-border: #e0e0e0;
+// $color-link: #111111;
+// $color-link-hover: #c41e3a;
+
+// SCHEME 4: Forest Scholar
+// Earthy greens with cream background
+// $color-primary: #1e3a2f;
+// $color-secondary: #4a6358;
+// $color-accent: #6b8e23;
+// $color-background: #f7f5f0;
+// $color-surface: #ffffff;
+// $color-border: #d9d5cc;
+// $color-link: #2d5a47;
+// $color-link-hover: #1e3a2f;
+
+// ============================================
+// TYPOGRAPHY
+// ============================================
+
+$font-serif: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif;
+$font-sans: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-mono: 'IBM Plex Mono', 'Menlo', 'Monaco', monospace;
+
+$font-size-base: 17px;
+$line-height-base: 1.75;
+
+// ============================================
+// SPACING
+// ============================================
+
+$spacing-unit: 1.5rem;
+$content-width: 720px;
+$wide-width: 960px;
+
+// ============================================
+// BASE STYLES
+// ============================================
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-serif;
+  font-size: 1rem;
+  line-height: $line-height-base;
+  color: $color-primary;
+  background-color: $color-background;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ============================================
+// LAYOUT
+// ============================================
+
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+  width: 100%;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: $spacing-unit * 2 $spacing-unit;
+}
+
+.site-content--wide {
+  max-width: $wide-width;
+}
+
+// ============================================
+// HEADER
+// ============================================
+
+.site-header {
+  padding: $spacing-unit * 1.5 $spacing-unit;
+  border-bottom: 1px solid $color-border;
+  background: $color-surface;
+}
+
+.site-header__inner {
+  max-width: $wide-width;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-title {
+  font-family: $font-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
+
+.site-nav {
+  display: flex;
+  gap: 2rem;
+
+  a {
+    font-family: $font-sans;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $color-secondary;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover,
+    &.active {
+      color: $color-primary;
+    }
+  }
+}
+
+// Mobile nav
+@media (max-width: 600px) {
+  .site-header__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .site-nav {
+    gap: 1.5rem;
+  }
+}
+
+// ============================================
+// HERO / PROFILE SECTION
+// ============================================
+
+.hero {
+  text-align: center;
+  padding: $spacing-unit * 3 $spacing-unit;
+  margin-bottom: $spacing-unit * 2;
+}
+
+.hero__avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: $spacing-unit;
+  border: 3px solid $color-border;
+  object-fit: cover;
+}
+
+.hero__name {
+  font-family: $font-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.01em;
+}
+
+.hero__title {
+  font-family: $font-sans;
+  font-size: 1rem;
+  color: $color-secondary;
+  margin: 0 0 $spacing-unit 0;
+  font-weight: 400;
+}
+
+.hero__bio {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto $spacing-unit;
+  line-height: 1.8;
+}
+
+.hero__links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+
+  a {
+    color: $color-secondary;
+    font-size: 1.25rem;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
+
+// ============================================
+// TYPOGRAPHY
+// ============================================
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-top: $spacing-unit * 2;
+  margin-bottom: $spacing-unit * 0.75;
+  color: $color-primary;
+}
+
+h1 { font-size: 2rem; }
+h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $color-border;
+}
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.1rem; }
+
+p {
+  margin: 0 0 $spacing-unit;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $color-link-hover;
+    text-decoration: underline;
+  }
+}
+
+strong {
+  font-weight: 600;
+}
+
+// ============================================
+// SECTIONS
+// ============================================
+
+.section {
+  margin-bottom: $spacing-unit * 3;
+}
+
+.section__title {
+  font-size: 1.35rem;
+  margin-bottom: $spacing-unit;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: $color-border;
+  }
+}
+
+// ============================================
+// NEWS / UPDATES
+// ============================================
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-item {
+  padding: $spacing-unit * 0.75 0;
+  border-bottom: 1px solid $color-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.news-date {
+  font-family: $font-sans;
+  font-size: 0.85rem;
+  color: $color-secondary;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+// ============================================
+// PUBLICATIONS
+// ============================================
+
+.pub-category {
+  margin-bottom: $spacing-unit * 2;
+}
+
+.pub-category__title {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: $color-secondary;
+  margin-bottom: $spacing-unit;
+  padding-left: 0;
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-item {
+  padding: $spacing-unit * 0.75 0;
+  padding-left: $spacing-unit;
+  border-left: 2px solid $color-border;
+  margin-bottom: $spacing-unit * 0.5;
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-left-color: $color-accent;
+  }
+}
+
+.pub-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.pub-authors {
+  font-size: 0.95rem;
+  color: $color-secondary;
+  margin-bottom: 0.25rem;
+}
+
+.pub-venue {
+  font-family: $font-sans;
+  font-size: 0.85rem;
+  color: $color-secondary;
+}
+
+.pub-links {
+  margin-top: 0.5rem;
+
+  a {
+    font-family: $font-sans;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-right: 1rem;
+    color: $color-link;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
+
+// Award badge
+.award-badge {
+  display: inline-block;
+  font-family: $font-sans;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: $color-accent;
+  color: white;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+// ============================================
+// EXPERIENCE / TIMELINE
+// ============================================
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1.5rem;
+  padding-bottom: $spacing-unit;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+
+.timeline-date {
+  font-family: $font-sans;
+  font-size: 0.85rem;
+  color: $color-secondary;
+  min-width: 140px;
+  flex-shrink: 0;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+// ============================================
+// SIMPLE LISTS
+// ============================================
+
+.simple-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+
+    &::before {
+      content: '·';
+      position: absolute;
+      left: 0.5rem;
+      color: $color-secondary;
+    }
+  }
+}
+
+// ============================================
+// FUN STUFF / PROJECTS
+// ============================================
+
+.project-card {
+  padding: $spacing-unit;
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: 4px;
+  margin-bottom: $spacing-unit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: darken($color-border, 10%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+}
+
+.project-card__title {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.project-card__desc {
+  font-size: 0.95rem;
+  color: $color-secondary;
+  margin: 0;
+}
+
+// ============================================
+// FOOTER
+// ============================================
+
+.site-footer {
+  padding: $spacing-unit * 2 $spacing-unit;
+  text-align: center;
+  border-top: 1px solid $color-border;
+  margin-top: $spacing-unit * 2;
+}
+
+.site-footer__text {
+  font-family: $font-sans;
+  font-size: 0.85rem;
+  color: $color-secondary;
+  margin: 0;
+}
+
+// ============================================
+// PHOTOGRAPHY GALLERY (Easter Egg Page)
+// ============================================
+
+.photo-gallery {
+  background: #111;
+  min-height: 100vh;
+}
+
+.photo-gallery .site-header {
+  background: transparent;
+  border-bottom-color: #333;
+}
+
+.photo-gallery .site-title a,
+.photo-gallery .site-nav a {
+  color: #fff;
+}
+
+.photo-header {
+  text-align: center;
+  padding: $spacing-unit * 4 $spacing-unit;
+  color: #fff;
+}
+
+.photo-header__title {
+  font-family: $font-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem;
+  color: #fff;
+}
+
+.photo-header__subtitle {
+  font-family: $font-sans;
+  font-size: 1rem;
+  color: #888;
+  font-weight: 300;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 0 1rem $spacing-unit * 2;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.photo-item {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.03);
+  }
+}
+
+.photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  color: #fff;
+  font-family: $font-sans;
+  font-size: 0.85rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  .photo-item:hover & {
+    opacity: 1;
+  }
+}
+
+// Easter egg camera icon style
+.easter-egg-link {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+  text-decoration: none !important;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// ============================================
+// UTILITIES
+// ============================================
+
+.text-center { text-align: center; }
+.text-secondary { color: $color-secondary; }
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: $spacing-unit * 0.5; }
+.mb-2 { margin-bottom: $spacing-unit; }
+.mb-3 { margin-bottom: $spacing-unit * 1.5; }
+
+// Hide visually but keep accessible
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// ============================================
+// PRINT STYLES
+// ============================================
+
+@media print {
+  body {
+    background: white;
+    font-size: 12pt;
+  }
+
+  .site-header,
+  .site-footer,
+  .hero__links {
+    display: none;
+  }
+
+  .site-content {
+    max-width: 100%;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
