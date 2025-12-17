@@ -90,3 +90,33 @@ photos:
     location: "Suzhou"
     year: "2025"
     medium: "Portra 400"
+
+  - filename: "L1011916.jpg"
+    location: "Osaka"
+    year: "2023"
+    medium: "Leica M11"
+
+  - filename: "020500960021.jpg"
+    location: "Osaka"
+    year: "2023"
+    medium: "Leica M11"
+  
+  - filename: "020500970029.jpg"
+    location: "Zhangjiajie"
+    year: "2025"
+    medium: "Portra 400"
+
+  - filename: "020501000035.jpg"
+    location: "Shanghai"
+    year: "2025"
+    medium: "Portra 400"
+
+  - filename: "020501010024.jpg"
+    location: "Zhangjiajie"
+    year: "2025"
+    medium: "Portra 400"
+
+  - filename: "L1000881.jpg"
+    location: "Kyoto"
+    year: "2023"
+    medium: "Leica Q2"
