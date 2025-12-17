@@ -1,0 +1,92 @@
+# Photos Data File
+# =======================
+# To add a new photo, copy this template:
+#
+#   - filename: "your-photo.jpg"
+#     description: "A short description of the photo"
+#     location: "Optional location"
+#     year: "Optional year"
+#     medium: "Film stock or digital camera (e.g., Portra 400, Fujifilm X100V)"
+#
+# Make sure the photo file is in /images/photos/
+
+photos:
+  - filename: "060400660025.jpg"
+    location: "Seattle"
+    year: "2025"
+    medium: "Gold 200"
+
+  - filename: "090300720033.jpg"
+    location: "Seattle"
+    year: "2024"
+    medium: "cinestill 800T"
+
+  - filename: "41070007.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Portra 400"
+
+  - filename: "025110260001.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Gold 200"
+
+  - filename: "050101090001.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Ilford XP2"
+
+  - filename: "016091550033.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Ilford HP5"
+
+  - filename: "090900850006.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Ektachrome E100"
+
+  - filename: "050902190010.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Portra 400"
+
+  - filename: "050902190011.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Portra 400"
+
+  - filename: "012128340032.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Gold 200"
+
+  - filename: "012128360031.jpg"
+    location: "Kyoto"
+    year: "2024"
+    medium: "Portra 400"
+
+  - filename: "012128390009.jpg"
+    location: "Kishi, Wakayama"
+    year: "2024"
+    medium: "Portra 400"
+
+  - filename: "015031580025.jpg"
+    location: "Montréal"
+    year: "2024"
+    medium: "Gold 200"
+
+  - filename: "030090700007.jpg"
+    location: "Montréal"
+    year: "2025"
+    medium: "Portra 400"
+
+  - filename: "015111390007.jpg"
+    location: "Beijing"
+    year: "2025"
+    medium: "Portra 400"
+
+  - filename: "015111400005.jpg"
+    location: "Suzhou"
+    year: "2025"
+    medium: "Portra 400"

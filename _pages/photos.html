@@ -83,6 +83,42 @@ layout: null
       color: #fff;
       border-color: rgba(255,255,255,0.4);
     }
+
+    /* Photo description - appears below the image */
+    .photo-caption {
+      position: fixed;
+      bottom: 5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      max-width: 600px;
+      padding: 0 1rem;
+    }
+
+    .photo-caption__text {
+      color: #666;
+      font-size: 0.95rem;
+      font-weight: 300;
+      line-height: 1.5;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .photo-caption__text.visible {
+      opacity: 1;
+    }
+
+    .photo-caption__meta {
+      color: #444;
+      font-size: 0.8rem;
+      margin-top: 0.25rem;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .photo-caption__meta.visible {
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -91,33 +127,34 @@ layout: null
     <img id="photo" src="" alt="">
   </div>
 
+  <div class="photo-caption">
+    <p id="description" class="photo-caption__text"></p>
+    <p id="meta" class="photo-caption__meta"></p>
+  </div>
+
   <div class="controls">
     <a href="{{ '/' | relative_url }}" class="btn">Back</a>
     <button id="shuffle" class="btn">Drift</button>
   </div>
 
   <script>
+    // Photo data loaded from _data/photos.yml
     const photos = [
-      "{{ '/images/photos/060400660025.jpg' | relative_url }}",
-      "{{ '/images/photos/090300720033.jpg' | relative_url }}",
-      "{{ '/images/photos/41070007.jpg' | relative_url }}",
-      "{{ '/images/photos/025110260001.jpg' | relative_url }}",
-      "{{ '/images/photos/050101090001.jpg' | relative_url }}",
-      "{{ '/images/photos/016091550033.jpg' | relative_url }}",
-      "{{ '/images/photos/090900850006.jpg' | relative_url }}",
-      "{{ '/images/photos/050902190010.jpg' | relative_url }}",
-      "{{ '/images/photos/050902190011.jpg' | relative_url }}",
-      "{{ '/images/photos/012128340032.jpg' | relative_url }}",
-      "{{ '/images/photos/012128360031.jpg' | relative_url }}",
-      "{{ '/images/photos/012128390009.jpg' | relative_url }}",
-      "{{ '/images/photos/015031580025.jpg' | relative_url }}",
-      "{{ '/images/photos/030090700007.jpg' | relative_url }}",
-      "{{ '/images/photos/015111390007.jpg' | relative_url }}",
-      "{{ '/images/photos/015111400005.jpg' | relative_url }}"
+      {% for photo in site.data.photos.photos %}
+      {
+        src: "{{ '/images/photos/' | append: photo.filename | relative_url }}",
+        description: "{{ photo.description | default: '' }}",
+        location: "{{ photo.location | default: '' }}",
+        year: "{{ photo.year | default: '' }}",
+        medium: "{{ photo.medium | default: '' }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
     ];
 
     let currentIndex = -1;
     const img = document.getElementById('photo');
+    const descEl = document.getElementById('description');
+    const metaEl = document.getElementById('meta');
     const shuffleBtn = document.getElementById('shuffle');
 
     function showRandomPhoto() {
@@ -127,10 +164,35 @@ layout: null
       } while (newIndex === currentIndex && photos.length > 1);
 
       currentIndex = newIndex;
-      img.classList.remove('loaded');
+      const photo = photos[currentIndex];
 
-      img.onload = () => img.classList.add('loaded');
-      img.src = photos[currentIndex];
+      // Fade out
+      img.classList.remove('loaded');
+      descEl.classList.remove('visible');
+      metaEl.classList.remove('visible');
+
+      img.onload = () => {
+        img.classList.add('loaded');
+
+        // Update and show description
+        if (photo.description) {
+          descEl.textContent = photo.description;
+          setTimeout(() => descEl.classList.add('visible'), 100);
+        } else {
+          descEl.textContent = '';
+        }
+
+        // Update and show meta (location, year, medium)
+        const metaParts = [photo.location, photo.year, photo.medium].filter(Boolean);
+        if (metaParts.length > 0) {
+          metaEl.textContent = metaParts.join(' · ');
+          setTimeout(() => metaEl.classList.add('visible'), 200);
+        } else {
+          metaEl.textContent = '';
+        }
+      };
+
+      img.src = photo.src;
     }
 
     shuffleBtn.addEventListener('click', showRandomPhoto);
