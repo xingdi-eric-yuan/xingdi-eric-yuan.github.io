@@ -1,6 +1,7 @@
 ---
 permalink: /photos/
 title: "Photos"
+layout: null
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -8,101 +9,157 @@ title: "Photos"
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <title>Photos · Xingdi Yuan</title>
+  <title>Photos</title>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
 
   <style>
-    {% capture styles %}
-    {% include custom-styles.css %}
-    {% endcapture %}
-    {{ styles }}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0a0a0a;
+      min-height: 100vh;
+      font-family: 'Source Sans Pro', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Masonry-style scattered grid */
+    .photo-wall {
+      column-count: 3;
+      column-gap: 8px;
+      padding: 8px;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 900px) {
+      .photo-wall {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .photo-wall {
+        column-count: 1;
+        padding: 4px;
+      }
+    }
+
+    .photo-item {
+      break-inside: avoid;
+      margin-bottom: 8px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .photo-item img {
+      width: 100%;
+      display: block;
+      transition: transform 0.6s ease, filter 0.3s ease;
+      filter: brightness(0.85);
+    }
+
+    .photo-item:hover img {
+      transform: scale(1.02);
+      filter: brightness(1);
+    }
+
+    /* Back button - floating */
+    .back-btn {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: rgba(255,255,255,0.1);
+      color: #888;
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 0.75rem 1.5rem;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+      z-index: 100;
+    }
+
+    .back-btn:hover {
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+      border-color: rgba(255,255,255,0.4);
+    }
+
+    /* Placeholder styles - remove when you add real photos */
+    .placeholder {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+      font-size: 0.8rem;
+    }
+
+    .placeholder.tall { height: 400px; }
+    .placeholder.medium { height: 280px; }
+    .placeholder.short { height: 200px; }
+    .placeholder.wide { height: 220px; }
   </style>
 </head>
-<body class="photo-page">
-  <div class="site-wrapper">
+<body>
 
-    <!-- Header -->
-    <header class="site-header">
-      <div class="site-header__inner">
-        <h1 class="site-title">
-          <a href="{{ '/' | relative_url }}">Xingdi (Eric) Yuan</a>
-        </h1>
-        <nav class="site-nav">
-          <a href="{{ '/' | relative_url }}">Back to Main</a>
-        </nav>
+  <div class="photo-wall">
+    <!--
+      Add your photos here. The masonry layout will automatically
+      arrange them in a nice scattered pattern.
+
+      Example:
+      <div class="photo-item">
+        <img src="/images/photos/your-photo.jpg" alt="">
       </div>
-    </header>
 
-    <!-- Photo Header -->
-    <div class="photo-header">
-      <h1 class="photo-header__title">A Quiet Corner</h1>
-      <p class="photo-header__subtitle">Moments captured between lines of code</p>
+      Tips:
+      - Mix different aspect ratios for visual interest
+      - No captions needed - let the photos speak
+      - Recommended: 1200-1600px on the long edge
+    -->
+
+    <!-- Placeholder photos - replace with your own -->
+    <div class="photo-item">
+      <div class="placeholder tall">your photo</div>
     </div>
-
-    <!-- Photo Grid -->
-    <div class="photo-grid">
-      <!--
-        Add your photos here! Each photo follows this format:
-
-        <div class="photo-item">
-          <img src="/images/photos/your-photo.jpg" alt="Description">
-          <div class="photo-caption">Caption text here</div>
-        </div>
-
-        Tips:
-        - Create a folder: /images/photos/ for your photography
-        - Recommended image size: 1200-1600px on the long edge
-        - Supported formats: jpg, png, webp
-      -->
-
-      <!-- Placeholder photos - replace with your own -->
-      <div class="photo-item">
-        <div style="width:100%; height:100%; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); display:flex; align-items:center; justify-content:center; color:#333; font-family: 'Source Sans Pro', sans-serif;">
-          <span style="color:#444;">Your photo here</span>
-        </div>
-      </div>
-
-      <div class="photo-item">
-        <div style="width:100%; height:100%; background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%); display:flex; align-items:center; justify-content:center;">
-          <span style="color:#444;">Your photo here</span>
-        </div>
-      </div>
-
-      <div class="photo-item">
-        <div style="width:100%; height:100%; background: linear-gradient(135deg, #16213e 0%, #1a1a2e 100%); display:flex; align-items:center; justify-content:center;">
-          <span style="color:#444;">Your photo here</span>
-        </div>
-      </div>
-
-      <div class="photo-item">
-        <div style="width:100%; height:100%; background: linear-gradient(135deg, #1a1a2e 0%, #0f0f23 100%); display:flex; align-items:center; justify-content:center;">
-          <span style="color:#444;">Your photo here</span>
-        </div>
-      </div>
-
-      <div class="photo-item">
-        <div style="width:100%; height:100%; background: linear-gradient(135deg, #0f0f23 0%, #16213e 100%); display:flex; align-items:center; justify-content:center;">
-          <span style="color:#444;">Your photo here</span>
-        </div>
-      </div>
-
-      <div class="photo-item">
-        <div style="width:100%; height:100%; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); display:flex; align-items:center; justify-content:center;">
-          <span style="color:#444;">Your photo here</span>
-        </div>
-      </div>
-
+    <div class="photo-item">
+      <div class="placeholder medium">your photo</div>
     </div>
-
-    <!-- Footer -->
-    <footer class="photo-footer">
-      <p>You found the secret corner · <a href="{{ '/' | relative_url }}">Return to research</a></p>
-    </footer>
-
+    <div class="photo-item">
+      <div class="placeholder short">your photo</div>
+    </div>
+    <div class="photo-item">
+      <div class="placeholder wide">your photo</div>
+    </div>
+    <div class="photo-item">
+      <div class="placeholder tall">your photo</div>
+    </div>
+    <div class="photo-item">
+      <div class="placeholder medium">your photo</div>
+    </div>
+    <div class="photo-item">
+      <div class="placeholder short">your photo</div>
+    </div>
+    <div class="photo-item">
+      <div class="placeholder wide">your photo</div>
+    </div>
+    <div class="photo-item">
+      <div class="placeholder medium">your photo</div>
+    </div>
   </div>
+
+  <a href="{{ '/' | relative_url }}" class="back-btn">Back</a>
+
 </body>
 </html>
