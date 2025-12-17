@@ -52,7 +52,7 @@ layout: null
         <h2 class="section__title">Current Focus</h2>
         <p>
           My recent work focuses on teaching coding AI to better understand codebases and to debug using tools.
-          Find our recent work in Coding AI on <a href="https://microsoft.github.io/debug-gym/">the Froggy team</a>'s page
+          Find our recent work in Agentic Coding on <a href="https://microsoft.github.io/debug-gym/">the Froggy team</a>'s page
           <img src="{{ '/images/froggy_new_logo.png' | relative_url }}" alt="Froggy" style="height:1.2em; vertical-align:middle; margin-left:0.3em;">.
         </p>
       </section>
@@ -61,11 +61,11 @@ layout: null
       <section class="section">
         <h2 class="section__title">Selected Publications</h2>
 
-        <details class="pub-category">
-          <summary class="pub-category__title">Machines that can read <span class="pub-count">({{ site.data.publications.reading | size }})</span></summary>
+        <div class="pub-category">
+          <h3 class="pub-category__title">Machines that can read</h3>
           <ul class="pub-list">
             {% for pub in site.data.publications.reading %}
-            <li class="pub-item">
+            <li class="pub-item{% if forloop.index > 1 %} pub-item--hidden{% endif %}">
               <div class="pub-title">{{ pub.title }}{% if pub.award %} <span class="award-badge">{{ pub.award }}</span>{% endif %}</div>
               <div class="pub-authors">{{ pub.authors }}</div>
               <div class="pub-venue">{{ pub.venue }}</div>
@@ -73,13 +73,16 @@ layout: null
             </li>
             {% endfor %}
           </ul>
-        </details>
+          {% if site.data.publications.reading.size > 1 %}
+          <button class="pub-expand-btn" onclick="this.parentElement.classList.toggle('expanded'); this.textContent = this.parentElement.classList.contains('expanded') ? 'Show less' : 'Show all {{ site.data.publications.reading.size }} papers';">Show all {{ site.data.publications.reading.size }} papers</button>
+          {% endif %}
+        </div>
 
-        <details class="pub-category">
-          <summary class="pub-category__title">Machines that can write <span class="pub-count">({{ site.data.publications.writing | size }})</span></summary>
+        <div class="pub-category">
+          <h3 class="pub-category__title">Machines that can write</h3>
           <ul class="pub-list">
             {% for pub in site.data.publications.writing %}
-            <li class="pub-item">
+            <li class="pub-item{% if forloop.index > 1 %} pub-item--hidden{% endif %}">
               <div class="pub-title">{{ pub.title }}{% if pub.award %} <span class="award-badge">{{ pub.award }}</span>{% endif %}</div>
               <div class="pub-authors">{{ pub.authors }}</div>
               <div class="pub-venue">{{ pub.venue }}</div>
@@ -87,13 +90,16 @@ layout: null
             </li>
             {% endfor %}
           </ul>
-        </details>
+          {% if site.data.publications.writing.size > 1 %}
+          <button class="pub-expand-btn" onclick="this.parentElement.classList.toggle('expanded'); this.textContent = this.parentElement.classList.contains('expanded') ? 'Show less' : 'Show all {{ site.data.publications.writing.size }} papers';">Show all {{ site.data.publications.writing.size }} papers</button>
+          {% endif %}
+        </div>
 
-        <details class="pub-category" open>
-          <summary class="pub-category__title">Machines that can use language as a tool <span class="pub-count">({{ site.data.publications.language_as_tool | size }})</span></summary>
+        <div class="pub-category">
+          <h3 class="pub-category__title">Machines that can use language as a tool</h3>
           <ul class="pub-list">
             {% for pub in site.data.publications.language_as_tool %}
-            <li class="pub-item">
+            <li class="pub-item{% if forloop.index > 1 %} pub-item--hidden{% endif %}">
               <div class="pub-title">{{ pub.title }}{% if pub.award %} <span class="award-badge">{{ pub.award }}</span>{% endif %}</div>
               <div class="pub-authors">{{ pub.authors }}</div>
               <div class="pub-venue">{{ pub.venue }}</div>
@@ -101,7 +107,10 @@ layout: null
             </li>
             {% endfor %}
           </ul>
-        </details>
+          {% if site.data.publications.language_as_tool.size > 1 %}
+          <button class="pub-expand-btn" onclick="this.parentElement.classList.toggle('expanded'); this.textContent = this.parentElement.classList.contains('expanded') ? 'Show less' : 'Show all {{ site.data.publications.language_as_tool.size }} papers';">Show all {{ site.data.publications.language_as_tool.size }} papers</button>
+          {% endif %}
+        </div>
       </section>
 
       <!-- Experience -->
