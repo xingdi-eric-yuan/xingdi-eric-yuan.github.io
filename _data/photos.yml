@@ -120,3 +120,33 @@ photos:
     location: "Kyoto"
     year: "2023"
     medium: "Leica Q2"
+
+  - filename: "B_3463.jpg"
+    location: "Montréal"
+    year: "2025"
+    medium: "Leica M11"
+
+  - filename: "L1001734.jpg"
+    location: "Montréal"
+    year: "2025"
+    medium: "Leica M11"
+
+  - filename: "L1001736.jpg"
+    location: "Montréal"
+    year: "2025"
+    medium: "Leica M11"
+
+  - filename: "L1001752.jpg"
+    location: "Montréal"
+    year: "2025"
+    medium: "Leica M11"
+
+  - filename: "L1002393.jpg"
+    location: "Québec City"
+    year: "2025"
+    medium: "Leica M11"
+
+  - filename: "L1002606.jpg"
+    location: "Ottawa"
+    year: "2025"
+    medium: "Leica M11"
