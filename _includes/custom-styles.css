@@ -207,6 +207,7 @@ body {
   max-width: 560px;
   margin: 0 auto 1.5rem;
   line-height: 1.8;
+  text-align: left;
 }
 
 .hero__links {
@@ -406,6 +407,16 @@ strong {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.85rem;
   color: var(--color-secondary);
+}
+
+.pub-note {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--color-secondary);
+  margin-top: 0.4rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--color-border);
+  line-height: 1.5;
 }
 
 .pub-links {

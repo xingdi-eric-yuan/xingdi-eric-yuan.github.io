@@ -51,6 +51,8 @@ layout: null
         <p class="hero__title">Principal Researcher · Microsoft Research, Montréal</p>
         <p class="hero__bio">
           I aim to develop machines that can <strong>read</strong>, <strong>write</strong>, and <strong>use language as a tool</strong>, in both static datasets and interactive worlds.
+          <br><br>
+          At <a href="https://microsoft.github.io/debug-gym/">the Froggy team</a> <img src="{{ '/images/froggy_new_logo.png' | relative_url }}" alt="Froggy" style="height:1.2em; vertical-align:middle; margin-left:0.3em;">, my recent work focuses on teaching agentic coding systems to understand codebases, leverage memory, and to solve long-horizon tasks with tools. To achieve that, I create synthetic data, train models, build harnesses, and design evaluation pipelines.
         </p>
         <div class="hero__links">
           <a href="mailto:xy504@nyu.edu" title="Email"><i class="fas fa-envelope"></i></a>
@@ -61,68 +63,25 @@ layout: null
         </div>
       </section>
 
-      <!-- Current Focus -->
-      <section class="section">
-        <h2 class="section__title">Current Focus</h2>
-        <p>
-          My recent work focuses on teaching coding AI to better understand codebases and to debug using tools.
-          Find our recent work in Agentic Coding on <a href="https://microsoft.github.io/debug-gym/">the Froggy team</a>'s page
-          <img src="{{ '/images/froggy_new_logo.png' | relative_url }}" alt="Froggy" style="height:1.2em; vertical-align:middle; margin-left:0.3em;">.
-        </p>
-      </section>
-
       <!-- Selected Publications (loaded from _data/publications.yml) -->
       <section class="section">
         <h2 class="section__title">Selected Publications</h2>
 
+        {% assign all_pubs = site.data.publications.publications %}
         <div class="pub-category">
-          <h3 class="pub-category__title">Machines that can read</h3>
           <ul class="pub-list">
-            {% for pub in site.data.publications.reading %}
-            <li class="pub-item{% if forloop.index > 1 %} pub-item--hidden{% endif %}">
+            {% for pub in all_pubs %}
+            <li class="pub-item{% if forloop.index > 8 %} pub-item--hidden{% endif %}">
               <div class="pub-title">{{ pub.title }}{% if pub.award %} <span class="award-badge">{{ pub.award }}</span>{% endif %}</div>
               <div class="pub-authors">{{ pub.authors }}</div>
               <div class="pub-venue">{{ pub.venue }}</div>
+              {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
               <div class="pub-links"><a href="{{ pub.arxiv }}">ArXiv</a></div>
             </li>
             {% endfor %}
           </ul>
-          {% if site.data.publications.reading.size > 1 %}
-          <button class="pub-expand-btn" onclick="this.parentElement.classList.toggle('expanded'); this.textContent = this.parentElement.classList.contains('expanded') ? 'Show less' : 'Show all {{ site.data.publications.reading.size }} papers';">Show all {{ site.data.publications.reading.size }} papers</button>
-          {% endif %}
-        </div>
-
-        <div class="pub-category">
-          <h3 class="pub-category__title">Machines that can write</h3>
-          <ul class="pub-list">
-            {% for pub in site.data.publications.writing %}
-            <li class="pub-item{% if forloop.index > 1 %} pub-item--hidden{% endif %}">
-              <div class="pub-title">{{ pub.title }}{% if pub.award %} <span class="award-badge">{{ pub.award }}</span>{% endif %}</div>
-              <div class="pub-authors">{{ pub.authors }}</div>
-              <div class="pub-venue">{{ pub.venue }}</div>
-              <div class="pub-links"><a href="{{ pub.arxiv }}">ArXiv</a></div>
-            </li>
-            {% endfor %}
-          </ul>
-          {% if site.data.publications.writing.size > 1 %}
-          <button class="pub-expand-btn" onclick="this.parentElement.classList.toggle('expanded'); this.textContent = this.parentElement.classList.contains('expanded') ? 'Show less' : 'Show all {{ site.data.publications.writing.size }} papers';">Show all {{ site.data.publications.writing.size }} papers</button>
-          {% endif %}
-        </div>
-
-        <div class="pub-category">
-          <h3 class="pub-category__title">Machines that can use language as a tool</h3>
-          <ul class="pub-list">
-            {% for pub in site.data.publications.language_as_tool %}
-            <li class="pub-item{% if forloop.index > 1 %} pub-item--hidden{% endif %}">
-              <div class="pub-title">{{ pub.title }}{% if pub.award %} <span class="award-badge">{{ pub.award }}</span>{% endif %}</div>
-              <div class="pub-authors">{{ pub.authors }}</div>
-              <div class="pub-venue">{{ pub.venue }}</div>
-              <div class="pub-links"><a href="{{ pub.arxiv }}">ArXiv</a></div>
-            </li>
-            {% endfor %}
-          </ul>
-          {% if site.data.publications.language_as_tool.size > 1 %}
-          <button class="pub-expand-btn" onclick="this.parentElement.classList.toggle('expanded'); this.textContent = this.parentElement.classList.contains('expanded') ? 'Show less' : 'Show all {{ site.data.publications.language_as_tool.size }} papers';">Show all {{ site.data.publications.language_as_tool.size }} papers</button>
+          {% if all_pubs.size > 5 %}
+          <button class="pub-expand-btn" onclick="this.parentElement.classList.toggle('expanded'); this.textContent = this.parentElement.classList.contains('expanded') ? 'Show less' : 'Show all {{ all_pubs.size }} papers';">Show all {{ all_pubs.size }} papers</button>
           {% endif %}
         </div>
       </section>

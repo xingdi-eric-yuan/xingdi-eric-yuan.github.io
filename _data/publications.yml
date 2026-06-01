@@ -1,5 +1,6 @@
 # Publications Data File
 # =======================
+# This is a single, ordered list of selected publications shown on the homepage.
 # To add a new paper, copy this template and fill in the fields:
 #
 #   - title: "Paper Title"
@@ -7,144 +8,83 @@
 #     venue: "Conference/Journal Year"
 #     arxiv: "https://arxiv.org/abs/XXXX.XXXXX"
 #     award: "Optional Award"  # Leave blank or remove if no award
+#     note: "Optional 1-2 sentence note on why this paper is interesting."  # Leave blank or remove if none
 #
-# Papers are grouped by category. Add new papers to the appropriate section.
+# Papers appear on the homepage in the same order as listed here (top to bottom).
+# The first 5 papers are shown by default; the rest are revealed by "Show all".
+# To remove old papers, just delete their entries below.
 
-reading:
-  - title: "NewsQA: A Machine Comprehension Dataset"
-    authors: "Adam Trischler*, Tong Wang*, Xingdi Yuan*, Justin Harris, Alessandro Sordoni, Philip Bachman, Kaheer Suleman"
-    venue: "RepL4NLP Workshop, ACL 2017"
-    arxiv: "https://arxiv.org/abs/1611.09830"
+publications:
 
-  - title: "Building Dynamic Knowledge Graphs from Text using Machine Reading Comprehension"
-    authors: "Rajarshi Das, Tsendsuren Munkhdalai, Xingdi Yuan, Adam Trischler, Andrew McCallum"
-    venue: "ICLR 2019"
-    arxiv: "https://arxiv.org/abs/1810.05682"
-
-  - title: "Machine Comprehension by Text-to-Text Neural Question Generation"
-    authors: "Xingdi Yuan*, Tong Wang*, Caglar Gulcehre*, Alessandro Sordoni*, Philip Bachman, Saizheng Zhang, Sandeep Subramanian, Adam Trischler"
-    venue: "RepL4NLP Workshop, ACL 2017"
-    arxiv: "https://arxiv.org/abs/1705.02012"
-
-  - title: "Natural Language Comprehension with the EpiReader"
-    authors: "Adam Trischler, Zheng Ye, Xingdi Yuan, Kaheer Suleman"
-    venue: "EMNLP 2016"
-    arxiv: "https://arxiv.org/abs/1606.02270"
-
-writing:
-  - title: "Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs"
-    authors: "Jingcheng Niu, Xingdi Yuan, Tong Wang, Hamidreza Saghir, Amir H. Abdi"
-    venue: "ACL 2025"
-    arxiv: "https://arxiv.org/abs/2505.09338"
-    award: "Outstanding Paper"
-
-  - title: "General-to-Specific Transfer Labeling for Domain Adaptable Keyphrase Generation"
-    authors: "Rui Meng, Tong Wang, Xingdi Yuan, Yingbo Zhou, Daqing He"
-    venue: "ACL Findings 2023"
-    arxiv: "https://arxiv.org/abs/2208.09606"
-
-  - title: "An Empirical Study on Neural Keyphrase Generation"
-    authors: "Rui Meng, Xingdi Yuan, Tong Wang, Sanqiang Zhao, Adam Trischler, Daqing He"
-    venue: "NAACL 2021"
-    arxiv: "https://arxiv.org/abs/2009.10229"
-
-  - title: "One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases"
-    authors: "Xingdi Yuan*, Tong Wang*, Rui Meng*, Khushboo Thaker, Peter Brusilovsky, Daqing He, Adam Trischler"
-    venue: "ACL 2020"
-    arxiv: "https://arxiv.org/abs/1810.05241"
-
-language_as_tool:
   - title: "debug-gym: A Text-Based Environment for Interactive Debugging"
     authors: "Xingdi Yuan*, Morgane M Moss, Charbel El Feghali, Chinmay Singh, Darya Moldavskaya, Drew MacPhee, Lucas Caccia, Matheus Pereira, Minseon Kim, Alessandro Sordoni, Marc-Alexandre Côté*"
     venue: "2025"
     arxiv: "https://arxiv.org/abs/2503.21557"
+    note: "Equipping an LLM-based coding agent with debuggers such as pdb."
 
   - title: "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills"
     authors: "Atharv Sonwane*, Isadora White*, Hyunji Lee, Matheus Pereira, Lucas Caccia, Minseon Kim, Zhengyan Shi, Chinmay Singh, Alessandro Sordoni, Marc-Alexandre Côté, Xingdi Yuan"
     venue: "2025"
     arxiv: "https://arxiv.org/abs/2510.19898"
+    note: "Generating unintentional synthetic bugs by asking LLMs to design new features."
 
   - title: "Gistify! Codebase-Level Understanding via Runtime Execution"
     authors: "Hyunji Lee, Minseon Kim, Chinmay Singh, Matheus Pereira, Atharv Sonwane, Isadora White, Elias Stengel-Eskin, Mohit Bansal, Zhengyan Shi, Alessandro Sordoni, Marc-Alexandre Côté, Xingdi Yuan, Lucas Caccia"
     venue: "2025"
     arxiv: "https://arxiv.org/abs/2510.26790"
+    note: "Generating an executable gist from a codebase and an entrypoint."
 
-  - title: "Enhancing Agent Learning through World Dynamics Modeling"
-    authors: "Zhiyuan Sun, Haochen Shi, Marc-Alexandre Côté, Glen Berseth, Xingdi Yuan, Bang Liu"
-    venue: "EMNLP 2024 Findings"
-    arxiv: "https://arxiv.org/abs/2407.17695"
+  - title: "Evolving Programmatic Skill Networks"
+    authors: "Haochen Shi, Xingdi Yuan, Bang Liu"
+    venue: "2025"
+    arxiv: "https://arxiv.org/abs/2601.03509"
+    note: "Forming a compositional network of skills (executable programs) that evolves through experience."
 
-  - title: "Policy Improvement using Language Feedback Models"
-    authors: "Victor Zhong, Dipendra Misra, Xingdi Yuan, Marc-Alexandre Côté"
-    venue: "NeurIPS 2024"
-    arxiv: "https://arxiv.org/abs/2402.07876"
-
-  - title: "Language-guided Skill Learning with Temporal Variational Inference"
-    authors: "Haotian Fu, Pratyusha Sharma, Elias Stengel-Eskin, George Konidaris, Nicolas Le Roux, Marc-Alexandre Côté*, Xingdi Yuan*"
-    venue: "ICML 2024"
-    arxiv: "https://arxiv.org/abs/2402.16354"
+  - title: "Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs"
+    authors: "Jingcheng Niu, Xingdi Yuan, Tong Wang, Hamidreza Saghir, Amir H. Abdi"
+    venue: "ACL 2025"
+    arxiv: "https://arxiv.org/abs/2505.09338"
+    award: "Outstanding Paper"
+    note: "Using contextual entrainment to understand how LLMs become distracted by “irrelevant” contextual information in the prompt."
 
   - title: "Can Language Models Serve as Text-Based World Simulators?"
     authors: "Ruoyao Wang, Graham Todd, Ziang Xiao, Xingdi Yuan, Marc-Alexandre Côté, Peter Clark, Peter Jansen"
     venue: "ACL 2024"
     arxiv: "https://arxiv.org/abs/2406.06485"
-
-  - title: "ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games"
-    authors: "Ruoyao Wang, Graham Todd, Eric Yuan, Ziang Xiao, Marc-Alexandre Côté, Peter Jansen"
-    venue: "EMNLP 2023"
-    arxiv: "https://arxiv.org/abs/2305.14879"
-
-  - title: "Deep Language Networks: Joint Prompt Training of Stacked LLMs using Variational Inference"
-    authors: "Alessandro Sordoni, Xingdi Yuan, Marc-Alexandre Côté, Matheus Pereira, Adam Trischler, Ziang Xiao, Arian Hosseini, Friederike Niedtner, Nicolas Le Roux"
-    venue: "2023"
-    arxiv: "https://arxiv.org/abs/2306.12509"
-
-  - title: "Augmenting Autotelic Agents with Large Language Models"
-    authors: "Cédric Colas, Laetitia Teodorescu, Pierre-Yves Oudeyer, Xingdi Yuan, Marc-Alexandre Côté"
-    venue: "CoLLAs 2023"
-    arxiv: "https://arxiv.org/abs/2305.12487"
-
-  - title: "One-Shot Learning from a Demonstration with Hierarchical Latent Language"
-    authors: "Nathaniel Weir, Xingdi Yuan, Marc-Alexandre Côté, Matthew Hausknecht, Romain Laroche, Ida Momennejad, Harm Van Seijen, Benjamin Van Durme"
-    venue: "AAMAS 2023"
-    arxiv: "https://arxiv.org/abs/2203.04806"
-
-  - title: "Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language"
-    authors: "Iou-Jen Liu*, Xingdi Yuan*, Marc-Alexandre Côté*, Pierre-Yves Oudeyer, Alexander G. Schwing"
-    venue: "ICML 2022"
-    arxiv: "https://arxiv.org/abs/2205.06111"
-
-  - title: "Interactive Machine Comprehension with Dynamic Knowledge Graphs"
-    authors: "Xingdi Yuan"
-    venue: "EMNLP 2021"
-    arxiv: "https://arxiv.org/abs/2109.00077"
+    note: "Can LLMs predict p(s_t+1 | s_t, a_t) for text-based games?"
 
   - title: "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning"
     authors: "Mohit Shridhar, Xingdi Yuan, Marc-Alexandre Côté, Yonatan Bisk, Adam Trischler, Matthew Hausknecht"
     venue: "ICLR 2021"
     arxiv: "https://arxiv.org/abs/2010.03768"
+    note: "Bridging ALFRED (visual) and TextWorld (text)."
 
   - title: "Learning Dynamic Knowledge Graphs to Generalize on Text-Based Games"
     authors: "Ashutosh Adhikari*, Xingdi Yuan*, Marc-Alexandre Côté*, Mikuláš Zelinka, Marc-Antoine Rondeau, Romain Laroche, Pascal Poupart, Jian Tang, Adam Trischler, William L. Hamilton"
     venue: "NeurIPS 2020"
     arxiv: "https://arxiv.org/abs/2002.09127"
+    note: "Building and maintaining a knowledge graph serves as an agent's belief."
 
   - title: "Interactive Fiction Games: A Colossal Adventure"
     authors: "Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan"
     venue: "AAAI 2020"
     arxiv: "https://arxiv.org/abs/1909.05398"
+    note: "Super hard text-based adventure games designed for human players."
 
   - title: "Interactive Machine Comprehension with Information Seeking Agents"
     authors: "Xingdi Yuan*, Jie Fu*, Marc-Alexandre Côté, Yi Tay, Christopher Pal, Adam Trischler"
     venue: "ACL 2020"
     arxiv: "https://arxiv.org/abs/1908.10449"
+    note: "Gamifying any machine reading comprehension tasks by making the document partially observed, and equipping the agent with Ctrl+F."
 
   - title: "Interactive Language Learning by Question Answering"
     authors: "Xingdi Yuan*, Marc-Alexandre Côté*, Jie Fu, Zhouhan Lin, Christopher Pal, Yoshua Bengio, Adam Trischler"
     venue: "EMNLP 2019"
     arxiv: "https://arxiv.org/abs/1908.10909"
+    note: "Training information seeking behaviors in text-based environments."
 
   - title: "TextWorld: A Learning Environment for Text-based Games"
     authors: "Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Ruo Yu Tao, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, Adam Trischler"
     venue: "Computer Games Workshop, ICML/IJCAI 2018"
     arxiv: "https://arxiv.org/abs/1806.11532"
+    note: "A sandbox learning environment for the training and evaluation of agents on text-based games."
