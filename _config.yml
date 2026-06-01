@@ -50,20 +50,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
 # Outputting
 permalink: /:title/
 timezone: America/Montreal
@@ -72,9 +58,3 @@ timezone: America/Montreal
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
