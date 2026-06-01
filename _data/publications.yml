@@ -35,7 +35,7 @@ publications:
     note: "Generating an executable gist from a codebase and an entrypoint."
 
   - title: "Evolving Programmatic Skill Networks"
-    authors: "Haochen Shi, Xingdi Yuan, Bang Liu"
+    authors: "Haochen Shi, Xingdi Yuan*, Bang Liu*"
     venue: "2025"
     arxiv: "https://arxiv.org/abs/2601.03509"
     note: "Forming a compositional network of skills (executable programs) that evolves through experience."
